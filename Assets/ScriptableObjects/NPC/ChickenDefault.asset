@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 818202f1337d06241bf38388355df7c3, type: 3}
+  m_Name: ChickenDefault
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenDataSO
+  moveSpeed: 1.5
+  wanderRadiusMin: 2
+  wanderRadiusMax: 4
+  idleTimeMin: 2
+  idleTimeMax: 5
+  feedItem: {fileID: 11400000, guid: 9edaf2d7a43f38840a079e98cd439511, type: 2}
+  feedAmount: 1
+  productItem: {fileID: 11400000, guid: 138872cee9e35034faf19287c17a4114, type: 2}
+  productAmount: 1
+  productionHoursMin: 20
+  productionHoursMax: 28
+  detectRadius: 4
+  fleeRadius: 2
+  fleeDuration: 1.5
+  fleeDistance: 3
+  nestGoChance: 0.05
+  nestSleepDuration: 30
+  sleepDuration: 10
+  sleepChance: 0.1
+  happyCooldown: 5
+  eatSubActionChance: 0.25
+  eatSubActionIntervalMin: 2
+  eatSubActionIntervalMax: 4

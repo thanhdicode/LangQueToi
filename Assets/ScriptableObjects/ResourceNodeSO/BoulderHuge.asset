@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd602d668c2ba448a3b2a14d966fcca, type: 3}
+  m_Name: BoulderHuge
+  m_EditorClassIdentifier: Assembly-CSharp::ResourceNodeSO
+  nodeName: Boulder Huge
+  maxHealth: 100
+  prefab: {fileID: 5096974416068045832, guid: 94d68c11d9633a24eb3795a437bc120f, type: 3}
