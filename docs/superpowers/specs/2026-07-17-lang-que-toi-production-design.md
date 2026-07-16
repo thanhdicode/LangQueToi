@@ -20,7 +20,8 @@ Thay đổi phải giữ nguyên gameplay hiện có, tương thích save và kh
 - Build Settings có đúng hai scene: `Assets/Scenes/MenuScene.unity` và `Assets/Scenes/MainScene.unity`.
 - Có 144 script C#.
 - Có 68 ScriptableObject vật phẩm và 36 kết quả câu cá thực tế.
-- Field hiển thị đã xác nhận gồm `itemName`, `seedName`, `cropName`, `toolName` và `shopName`.
+- Field runtime hiển thị đã xác nhận gồm `itemName`, `seedName`, `cropName` và `shopName`.
+- `ToolSO` dùng `itemName` kế thừa từ `BaseItemSO`; `toolName` còn trong một số YAML cũ là serialized data mồ côi, không phải field runtime và không được hồi sinh.
 - `FishSO` kế thừa `ItemSO`; không có field `fishName` riêng.
 - Save dùng tên object/định danh nội bộ, không dùng bản dịch hiển thị làm khóa.
 - Gold được lưu bằng `int`.
@@ -33,6 +34,7 @@ Thay đổi phải giữ nguyên gameplay hiện có, tương thích save và kh
 - Logo menu hiện dùng sprite 500×500 trong rect 600×600.
 - Font hiện tại là pixel font/DePixelBreit SDF và chưa có fallback tiếng Việt được xác nhận.
 - Audio hiện có ít nhất `On the Farm.wav` và `idoberg-cozy-lofi-beat-split-memmories-248205.mp3`; quyền phân phối phải được audit trước khi giữ trong release.
+- Readme trong `UI/Sprout Lands - UI Pack - Basic pack`, `Sprout Lands - Sprites - Basic pack` và `Sprout Sorry pack` chỉ cho phép dự án phi thương mại. Static dependency audit từ hai scene hiện chạm ít nhất 29 asset trong ba vùng này; build thương mại phải thay thế chúng hoặc có bằng chứng license bổ sung.
 - Repo ban đầu không có lịch sử Git. Baseline nguyên trạng đã được tạo riêng trước mọi thay đổi sản phẩm.
 
 ## 3. Ranh giới bất biến
@@ -49,6 +51,8 @@ Không được thay đổi:
 Không được bổ sung season, cây trồng, cá, NPC, cơ chế gameplay, Steam App ID, achievement, cloud save hoặc Steamworks SDK trong phạm vi này.
 
 Không bulk replace YAML. Không ghi đè asset gốc của bên thứ ba. Không đưa asset âm thanh chưa xác minh quyền thương mại vào bản build phát hành.
+
+Mục tiêu “giữ world sprites” chỉ áp dụng cho asset có quyền sử dụng phù hợp. Quyền phát hành luôn ưu tiên hơn bảo toàn asset: nếu không có license bổ sung, asset Basic/Sprout Sorry đang được reference phải được thay thế bằng Premium/original qua một scope visual được duyệt, hoặc build chỉ được ghi nhãn prototype phi thương mại.
 
 ## 4. Kiến trúc — Audited Hybrid Pipeline
 
@@ -129,10 +133,9 @@ Tên object và save ID giữ tiếng Anh/nội bộ. Các field hiển thị đ
 - `itemName`
 - `seedName`
 - `cropName`
-- `toolName`
 - `shopName`
 
-Mapping phải bao phủ đúng 68 vật phẩm và 36 kết quả câu cá đã audit. Seed/item/crop liên quan phải nhất quán. Không ánh xạ theo field giả định như `fishName` hoặc `displayName` nếu type thực tế không có field đó.
+Mapping phải bao phủ đúng 68 vật phẩm và 36 kết quả câu cá đã audit. Seed/item/crop liên quan phải nhất quán. Tool hiện hữu được điền vào `itemName`; migration bằng SerializedObject sẽ loại dữ liệu `toolName` mồ côi khi Unity lưu lại đúng schema. Không ánh xạ theo field giả định như `fishName`, `displayName` hoặc `toolName` nếu type thực tế không có field đó.
 
 ### 6.2 Runtime catalog
 
@@ -329,6 +332,7 @@ Chỉ được báo “production-ready” khi đồng thời đạt:
 - Font atlas thiếu glyph có thể chỉ lộ khi chạy câu hiếm; coverage lấy từ toàn bộ catalog và display data.
 - Tên cá/vật phẩm có thể đúng ngôn ngữ nhưng không khớp sprite; mapping cần visual review.
 - Audio hiện hữu có thể không đủ bằng chứng license; lịch phát hành không được phụ thuộc vào việc giữ chúng.
+- Ít nhất 29 dependency hiện chạm asset được readme nội bộ giới hạn ở non-commercial; đây là release blocker trừ khi người dùng cung cấp license bổ sung hoặc duyệt replacement scope.
 - Steam artwork tạo trước khi gameplay hoàn thiện dễ lệch hình ảnh thật; screenshot và final capsules chỉ khóa sau release candidate.
 
 ## 15. Tài liệu tham chiếu
