@@ -1,0 +1,106 @@
+{
+    "mode": "apply",
+    "timestampUtc": "2026-07-17T15:25:52.5006359Z",
+    "entries": [
+        {
+            "path": "Assets/LangQueToi/Art/Menu/menu-background.png",
+            "expectedWidth": 1920,
+            "expectedHeight": 1080,
+            "actualWidth": 1920,
+            "actualHeight": 1080,
+            "sliced": false,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/Menu/title-mark.png",
+            "expectedWidth": 500,
+            "expectedHeight": 500,
+            "actualWidth": 500,
+            "actualHeight": 500,
+            "sliced": false,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/Menu/menu-character.png",
+            "expectedWidth": 400,
+            "expectedHeight": 400,
+            "actualWidth": 400,
+            "actualHeight": 400,
+            "sliced": false,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/Dialogue/dialogue-frame.png",
+            "expectedWidth": 960,
+            "expectedHeight": 256,
+            "actualWidth": 960,
+            "actualHeight": 256,
+            "sliced": true,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/Characters/ba-nam-portrait.png",
+            "expectedWidth": 256,
+            "expectedHeight": 256,
+            "actualWidth": 256,
+            "actualHeight": 256,
+            "sliced": false,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/HUD/coin-dong.png",
+            "expectedWidth": 64,
+            "expectedHeight": 64,
+            "actualWidth": 64,
+            "actualHeight": 64,
+            "sliced": false,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/HUD/weather-sunny.png",
+            "expectedWidth": 90,
+            "expectedHeight": 90,
+            "actualWidth": 90,
+            "actualHeight": 90,
+            "sliced": false,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/HUD/weather-cloudy.png",
+            "expectedWidth": 90,
+            "expectedHeight": 90,
+            "actualWidth": 90,
+            "actualHeight": 90,
+            "sliced": false,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/HUD/weather-rainy.png",
+            "expectedWidth": 90,
+            "expectedHeight": 90,
+            "actualWidth": 90,
+            "actualHeight": 90,
+            "sliced": false,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/HUD/notification-frame.png",
+            "expectedWidth": 640,
+            "expectedHeight": 128,
+            "actualWidth": 640,
+            "actualHeight": 128,
+            "sliced": true,
+            "status": "ok"
+        },
+        {
+            "path": "Assets/LangQueToi/Art/Shop/ba-nam-shop-header.png",
+            "expectedWidth": 512,
+            "expectedHeight": 128,
+            "actualWidth": 512,
+            "actualHeight": 128,
+            "sliced": true,
+            "status": "ok"
+        }
+    ],
+    "errors": []
+}

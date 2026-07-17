@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecfeef66e755bd5409143271f1d541b3, type: 3}
   m_Name: CornSeedSO
   m_EditorClassIdentifier: Assembly-CSharp::SeedSO
-  itemName: Corn Seed
+  itemName: "H\u1EA1t gi\u1ED1ng b\u1EAFp"
   icon: {fileID: 3690553341567383519, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 0}
   maxStackSize: 99
   sellValue: 8
-  seedName: Corn Seed
+  seedName: "H\u1EA1t gi\u1ED1ng b\u1EAFp"
   cropData: {fileID: 11400000, guid: 3f7540273dfc8674684d4f64a3dcea7a, type: 2}

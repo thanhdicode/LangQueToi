@@ -25,8 +25,8 @@ public class SavingIndicatorUI : MonoBehaviour
     [SerializeField] private float fadeDuration = 0.3f;
     [Tooltip("Seconds the indicator stays visible after save completes.")]
     [SerializeField] private float holdDuration = 0.8f;
-    [SerializeField] private string savingText  = "Saving...";
-    [SerializeField] private string savedText   = "Saved!";
+    [SerializeField] private string savingText  = "Đang lưu…";
+    [SerializeField] private string savedText   = "Đã lưu";
 
     // ----------------------------------------------------------
     // Private state

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: Wheat
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Wheat
+  itemName: "L\xFAa m\xEC"
   icon: {fileID: 7206217728049200231, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 6056106614652991247, guid: f4bbfc0cb3fb0594da5e1c4340fd2e5e, type: 3}
   maxStackSize: 99

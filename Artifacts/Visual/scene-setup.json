@@ -1,0 +1,20 @@
+{
+    "timestampUtc": "2026-07-17T15:26:29.6442484Z",
+    "checks": [
+        {
+            "name": "menu_scene_saved",
+            "value": "True",
+            "status": "changed"
+        },
+        {
+            "name": "main_scene_saved",
+            "value": "True",
+            "status": "changed"
+        }
+    ],
+    "warnings": [
+        "Nunito TMP asset missing (run LQTFontBuilder first). Fonts will not be swapped.",
+        "Skip sprite bind — path not found: MainScene/Canvas/LogoTitle"
+    ],
+    "errors": []
+}

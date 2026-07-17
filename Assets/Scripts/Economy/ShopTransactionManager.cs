@@ -6,6 +6,7 @@
 // ──────────────────────────────────────────────
 using System;
 using System.Collections;
+using LangQueToi;
 using UnityEngine;
 
 public class ShopTransactionManager : MonoBehaviour
@@ -68,7 +69,8 @@ public class ShopTransactionManager : MonoBehaviour
     {
         if (_pendingSellGold > 0)
         {
-            NotificationManager.Instance?.ShowMessage($"Clove paid you {_pendingSellGold} Gold!");
+            NotificationManager.Instance?.ShowMessage(
+                Loc.Format("shop.sell.success", Loc.Gold(_pendingSellGold)));
             _pendingSellGold = 0;
             yield return new WaitForSeconds(buyNotificationDelay);
         }
@@ -76,8 +78,8 @@ public class ShopTransactionManager : MonoBehaviour
         if (_pendingBuyGoldSpent > 0 || _pendingBuySkipped > 0)
         {
             string msg = _pendingBuySkipped > 0
-                ? $"Partial order: spent {_pendingBuyGoldSpent} Gold, {_pendingBuySkipped} item(s) skipped"
-                : $"Order delivered! Spent {_pendingBuyGoldSpent} Gold";
+                ? Loc.Format("shop.buy.partial", Loc.Gold(_pendingBuyGoldSpent), _pendingBuySkipped)
+                : Loc.Format("shop.buy.success", Loc.Gold(_pendingBuyGoldSpent));
 
             NotificationManager.Instance?.ShowMessage(msg);
             _pendingBuyGoldSpent = 0;

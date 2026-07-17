@@ -3,6 +3,7 @@
 // Manages the Buy page: populates shop items, handles order list and total.
 // Attach on the BuyPage GameObject.
 // ──────────────────────────────────────────────
+using LangQueToi;
 using TMPro;
 using UnityEngine;
 
@@ -84,7 +85,7 @@ public class BuyPageUI : MonoBehaviour
             if (row != null)
                 total += row.Entry.buyPrice * row.Quantity;
         }
-        totalText.text = $"TOTAL: {total}";
+        totalText.text = Loc.Format("shop.total", Loc.Gold(total));
     }
 
     // ----------------------------------------------------------

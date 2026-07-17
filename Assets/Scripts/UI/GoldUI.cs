@@ -4,6 +4,7 @@
 // Attach on the GoldText GameObject.
 // ──────────────────────────────────────────────
 using System;
+using LangQueToi;
 using TMPro;
 using UnityEngine;
 
@@ -35,6 +36,6 @@ public class GoldUI : MonoBehaviour
 
     private void Refresh()
     {
-        goldText.text = EconomyManager.Instance.Gold.ToString();
+        goldText.text = Loc.Gold(EconomyManager.Instance.Gold);
     }
 }

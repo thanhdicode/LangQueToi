@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: Pear
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Pear
+  itemName: "L\xEA"
   icon: {fileID: -7542103567537258657, guid: 1740eda9b0976e248a67f609107a9214, type: 3}
   prefab: {fileID: 1798531782267920671, guid: e368fb0bf2f8a784fbc6f7ff9787c128, type: 3}
   maxStackSize: 99

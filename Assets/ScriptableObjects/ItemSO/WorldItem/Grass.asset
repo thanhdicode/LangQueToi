@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: Grass
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Grass
+  itemName: "C\u1ECF"
   icon: {fileID: -1621340587286962615, guid: 2bc6402980a669144b04c8f75ef2c81d, type: 3}
   prefab: {fileID: 815513011415015786, guid: 63adeca621a6ab6408f9fdf2e5a0441b, type: 3}
   maxStackSize: 99
+  sellValue: 0

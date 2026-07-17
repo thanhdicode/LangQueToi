@@ -2,6 +2,7 @@
 // TheSprouty | Scripts/UI/ClockUI.cs
 // Drives the analog clock hands and day counter text on the HUD.
 // ──────────────────────────────────────────────
+using LangQueToi;
 using TMPro;
 using UnityEngine;
 
@@ -102,12 +103,7 @@ public class ClockUI : MonoBehaviour
     {
         if (timeText == null) return;
 
-        int h      = Mathf.FloorToInt(currentHour);
-        int m      = Mathf.FloorToInt((currentHour - h) * 60f);
-        string ampm = h < 12 ? "AM" : "PM";
-        int h12    = h % 12 == 0 ? 12 : h % 12;
-
-        timeText.text = $"{h12:D2}:{m:D2} {ampm}";
+        timeText.text = Loc.Clock(currentHour);
     }
 
     private void UpdateDayNumber(int day)

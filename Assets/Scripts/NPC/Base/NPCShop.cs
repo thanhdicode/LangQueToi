@@ -3,6 +3,7 @@
 // Shop NPC: detects player proximity and opens DialoguePanel on TalkToNPC press.
 // ──────────────────────────────────────────────
 using System;
+using LangQueToi;
 using UnityEngine;
 
 public class NPCShop : BaseTriggerZone
@@ -13,6 +14,10 @@ public class NPCShop : BaseTriggerZone
     [Header("References")]
     [SerializeField] private GameObject interactIndicator;
     [SerializeField] private GameInput gameInput;
+
+    [Header("Presentation")]
+    [SerializeField] private Sprite portrait;
+    [SerializeField] private string speakerName = "Bà Năm";
 
     // ----------------------------------------------------------
     // Private state
@@ -64,6 +69,10 @@ public class NPCShop : BaseTriggerZone
         if (RadialToolWheelUI.IsOpen)  return;
         if (Player.Instance.IsInDialogue) return;
 
-        DialoguePanelUI.Instance.Open();
+        int greeting = UnityEngine.Random.Range(0, 4);
+        DialoguePanelUI.Instance.Open(new DialoguePresentation(
+            speakerName,
+            portrait,
+            Loc.Get($"dialogue.shop.greeting.{greeting}")));
     }
 }

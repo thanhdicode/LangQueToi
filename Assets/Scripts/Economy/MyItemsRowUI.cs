@@ -3,6 +3,7 @@
 // Displays a single sellable inventory item in the Sell page.
 // Arrow button adds item to the ToSell list.
 // ──────────────────────────────────────────────
+using LangQueToi;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -33,7 +34,7 @@ public class MyItemsRowUI : MonoBehaviour
 
         itemIcon.sprite   = item.icon;
         itemNameText.text = item.itemName;
-        priceText.text    = $"Sell: {item.sellValue} - x{quantity}";
+        priceText.text    = Loc.Format("shop.sell_stock", Loc.Gold(item.sellValue), quantity);
 
         addButton.onClick.RemoveAllListeners();
         addButton.onClick.AddListener(OnAddClicked);

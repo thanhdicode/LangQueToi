@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecfeef66e755bd5409143271f1d541b3, type: 3}
   m_Name: WheatSeedSO
   m_EditorClassIdentifier: Assembly-CSharp::SeedSO
-  itemName: Wheat Seed
+  itemName: "H\u1EA1t gi\u1ED1ng l\xFAa m\xEC"
   icon: {fileID: 4183160700423988859, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 0}
   maxStackSize: 99
   sellValue: 5
-  seedName: Wheat Seed
+  seedName: "H\u1EA1t gi\u1ED1ng l\xFAa m\xEC"
   cropData: {fileID: 11400000, guid: aed58febe4cfea64eb06727da6fe2e6f, type: 2}

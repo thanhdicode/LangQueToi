@@ -1,0 +1,6 @@
+{
+  "name": "LQT.Runtime",
+  "rootNamespace": "LangQueToi",
+  "autoReferenced": true,
+  "references": ["Unity.TextMeshPro"]
+}

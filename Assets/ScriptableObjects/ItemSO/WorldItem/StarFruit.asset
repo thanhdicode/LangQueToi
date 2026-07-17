@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: StarFruit
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Star Fruit
+  itemName: "Kh\u1EBF"
   icon: {fileID: -705628712, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 475454886490142802, guid: b0f86500c6ecd5349ac5a6bc19a67b29, type: 3}
   maxStackSize: 99
+  sellValue: 0

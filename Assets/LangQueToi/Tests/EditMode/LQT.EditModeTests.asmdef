@@ -1,0 +1,8 @@
+{
+  "name": "LQT.EditModeTests",
+  "rootNamespace": "LangQueToi.Tests",
+  "references": ["LQT.Runtime", "Unity.TextMeshPro"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

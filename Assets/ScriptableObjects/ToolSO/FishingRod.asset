@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 159af7465ceb26b45a479ed61d098e23, type: 3}
   m_Name: FishingRod
   m_EditorClassIdentifier: Assembly-CSharp::ToolSO
-  itemName: Fishing Rod
+  itemName: "C\u1EA7n c\xE2u"
   icon: {fileID: 0}
   prefab: {fileID: 0}
   toolType: 4

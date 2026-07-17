@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: GreenBeen
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Green Been
+  itemName: "\u0110\u1EADu c\xF4 ve"
   icon: {fileID: -1495692990, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 3213691300362173517, guid: e57fcaa15f0b4ef4483012b2c295e674, type: 3}
   maxStackSize: 99
+  sellValue: 0

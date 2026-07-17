@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 159af7465ceb26b45a479ed61d098e23, type: 3}
   m_Name: SeedBag
   m_EditorClassIdentifier: Assembly-CSharp::ToolSO
-  itemName: Seed Bag
+  itemName: "T\xFAi h\u1EA1t gi\u1ED1ng"
   icon: {fileID: 8360184974953933675, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 0}
   toolType: 5

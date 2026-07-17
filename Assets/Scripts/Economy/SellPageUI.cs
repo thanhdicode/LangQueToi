@@ -5,6 +5,7 @@
 // Attach on the SellPage GameObject.
 // ──────────────────────────────────────────────
 using System;
+using LangQueToi;
 using TMPro;
 using UnityEngine;
 
@@ -92,7 +93,7 @@ public class SellPageUI : MonoBehaviour
             if (row != null)
                 total += row.Item.sellValue * row.Quantity;
         }
-        totalText.text = $"TOTAL: {total}";
+        totalText.text = Loc.Format("shop.total", Loc.Gold(total));
     }
 
     /// <summary>Returns all current to-sell rows. Used by ShopTransactionManager.</summary>

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c22e79f1ace97c4e8996a86f64c2530, type: 3}
   m_Name: PumpkinCrop
   m_EditorClassIdentifier: Assembly-CSharp::CropDataSO
-  cropName: Pumpkin Crop
+  cropName: "B\xED \u0111\u1ECF"
   stages:
   - sprite: {fileID: -261361533921887324, guid: bbeedc1c37949ab468e8beb9230628cc, type: 3}
     hoursToNextStage: 24

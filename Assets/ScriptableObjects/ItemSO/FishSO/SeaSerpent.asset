@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220a11612f422194fae7b943f5864a5f, type: 3}
   m_Name: SeaSerpent
   m_EditorClassIdentifier: Assembly-CSharp::FishSO
-  itemName: Sea Serpent
+  itemName: "H\u1EA3i x\xE0"
   icon: {fileID: 4520347727336722099, guid: 2a6a0e75de80be9499630e1caecad83e, type: 3}
   prefab: {fileID: 0}
   maxStackSize: 99

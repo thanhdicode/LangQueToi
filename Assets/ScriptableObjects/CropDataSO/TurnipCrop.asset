@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c22e79f1ace97c4e8996a86f64c2530, type: 3}
   m_Name: TurnipCrop
   m_EditorClassIdentifier: Assembly-CSharp::CropDataSO
-  cropName: Turnip Crop
+  cropName: "C\u1EE7 c\u1EA3i"
   stages:
   - sprite: {fileID: 8764029024336308573, guid: bbeedc1c37949ab468e8beb9230628cc, type: 3}
     hoursToNextStage: 21

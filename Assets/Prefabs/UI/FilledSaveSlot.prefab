@@ -611,7 +611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THE SPROUTY ISLAND
+  m_text: "L\xC0NG QU\xCA T\xD4I"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0d47f9d1b29b17340bc1ea2abed77158, type: 2}
   m_sharedMaterial: {fileID: -3008530652454262713, guid: 0d47f9d1b29b17340bc1ea2abed77158, type: 2}
@@ -1105,7 +1105,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: x Days
+  m_text: "Ng\xE0y x"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0d47f9d1b29b17340bc1ea2abed77158, type: 2}
   m_sharedMaterial: {fileID: -3008530652454262713, guid: 0d47f9d1b29b17340bc1ea2abed77158, type: 2}

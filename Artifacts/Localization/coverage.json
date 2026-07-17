@@ -1,0 +1,67 @@
+{
+    "timestampUtc": "2026-07-17T15:28:37.8244194Z",
+    "passed": true,
+    "fatalCount": 0,
+    "warningCount": 7,
+    "checks": [
+        {
+            "name": "registered_keys_count",
+            "value": "18",
+            "status": "info"
+        },
+        {
+            "name": "referenced_keys_count",
+            "value": "11",
+            "status": "info"
+        },
+        {
+            "name": "manifest_items",
+            "value": "68",
+            "status": "ok"
+        }
+    ],
+    "findings": [
+        {
+            "severity": "warning",
+            "category": "unused_catalog_key",
+            "key": "save.saving",
+            "detail": "Registered key never referenced: save.saving"
+        },
+        {
+            "severity": "warning",
+            "category": "unused_catalog_key",
+            "key": "save.saved",
+            "detail": "Registered key never referenced: save.saved"
+        },
+        {
+            "severity": "warning",
+            "category": "unused_catalog_key",
+            "key": "calendar.day",
+            "detail": "Registered key never referenced: calendar.day"
+        },
+        {
+            "severity": "warning",
+            "category": "forbidden_english_literal",
+            "key": "Inventory Full",
+            "detail": "English literal appears in source (may be a Debug.Log or comment): 'Inventory Full'"
+        },
+        {
+            "severity": "warning",
+            "category": "forbidden_english_literal",
+            "key": " Days",
+            "detail": "English literal appears in source (may be a Debug.Log or comment): ' Days'"
+        },
+        {
+            "severity": "warning",
+            "category": "forbidden_english_literal",
+            "key": "Saving...",
+            "detail": "English literal appears in source (may be a Debug.Log or comment): 'Saving...'"
+        },
+        {
+            "severity": "warning",
+            "category": "forbidden_english_literal",
+            "key": "Saved!",
+            "detail": "English literal appears in source (may be a Debug.Log or comment): 'Saved!'"
+        }
+    ]
+}

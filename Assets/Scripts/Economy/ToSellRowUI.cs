@@ -3,6 +3,7 @@
 // Displays a single item in the To Sell list.
 // Minus button decrements quantity. Destroys self when quantity reaches 0.
 // ──────────────────────────────────────────────
+using LangQueToi;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,7 +37,7 @@ public class ToSellRowUI : MonoBehaviour
 
         itemIcon.sprite   = item.icon;
         itemNameText.text = item.itemName;
-        priceText.text    = $"Sell: {item.sellValue}";
+        priceText.text    = Loc.Format("shop.sell_unit", Loc.Gold(item.sellValue));
 
         removeButton.onClick.RemoveAllListeners();
         removeButton.onClick.AddListener(OnRemoveClicked);

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using LangQueToi;
+using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
 public class ItemPickup : MonoBehaviour
@@ -37,7 +38,7 @@ public class ItemPickup : MonoBehaviour
         {
             // Chỉ notify khi item đang bị hút vào player
             if (_isMagnetized)
-                NotificationManager.Instance.ShowMessage("Inventory Full");
+                NotificationManager.Instance.ShowMessage(Loc.Get("inventory.full"));
             return;
         }
 

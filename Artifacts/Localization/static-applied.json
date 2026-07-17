@@ -1,0 +1,408 @@
+{
+    "mode": "apply",
+    "timestampUtc": "2026-07-17T15:19:52.7444613Z",
+    "counts": {
+        "total": 49,
+        "matched": 0,
+        "applied": 1,
+        "already_target": 48,
+        "mismatched": 0,
+        "missing": 0,
+        "errors": 0
+    },
+    "entries": [
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/AboutPanel/HeaderText",
+            "expectedSource": "ABOUT",
+            "target": "GIỚI THIỆU",
+            "currentNormalized": "GIỚI THIỆU",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/FullscreenRow/FullscreenText",
+            "expectedSource": "Fullscreen",
+            "target": "Toàn màn hình",
+            "currentNormalized": "Toàn màn hình",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/AmbienceRow/AmbienceText",
+            "expectedSource": "Ambience",
+            "target": "Âm thanh môi trường",
+            "currentNormalized": "Âm thanh môi trường",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/MusicRow/MusicText",
+            "expectedSource": "Music",
+            "target": "Nhạc",
+            "currentNormalized": "Nhạc",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/CreditsPanel/HeaderText",
+            "expectedSource": "CREDITS",
+            "target": "GHI CÔNG",
+            "currentNormalized": "GHI CÔNG",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/ConfirmRemovePanel/ConfirmText",
+            "expectedSource": "DO YOU WANT TO REMOVE THIS SAVE?",
+            "target": "XÓA DỮ LIỆU LƯU NÀY?",
+            "currentNormalized": "XÓA DỮ LIỆU LƯU NÀY?",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/AboutPanel/Scroll View/Viewport/Content/AboutText",
+            "expectedSource": "The Sprouty is a cozy 2D pixel art farming game where you tend your land, grow crops, harvest and explore the world at your own peaceful pace.\n\n─────────────────────────\n\nGame Development Course Project\nDalat University (DLU)\n\n─────────────────────────\n\n  DEVELOPMENT TEAM\n\nNguyen Dinh Thach\n  ID: 2314506\n\nPham Nguyen Ngoc Phuoc\n  ID: 2312718\n\nNguyen Van Quoc\n  ID: 2312729",
+            "target": "Làng Quê Tôi là trò chơi nông trại pixel 2D ấm áp, nơi bạn chăm ruộng,\ngieo trồng, thu hoạch và khám phá miền quê theo nhịp sống yên bình.\n\n─────────────────────────\n\nĐồ án môn Phát triển Trò chơi\nTrường Đại học Đà Lạt (DLU)\n\n─────────────────────────\n\n NHÓM PHÁT TRIỂN\n\nNguyen Dinh Thach\n  MSSV: 2314506\n\nPham Nguyen Ngoc Phuoc\n  MSSV: 2312718\n\nNguyen Van Quoc\n  MSSV: 2312729",
+            "currentNormalized": "The Sprouty is a cozy 2D pixel art farming game where you tend your land, grow crops, harvest and explore the world at your own peaceful pace.\n\n─────────────────────────\n\nGame Development Course Project\nDalat University (DLU)\n\n─────────────────────────\n\n  DEVELOPMENT TEAM\n\nNguyen Dinh Thach\n  ID: 2314506\n\nPham Nguyen Ngoc Phuoc\n  ID: 2312718\n\nNguyen Van Quoc\n  ID: 2312729",
+            "status": "applied"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/SavePanel/HeaderText",
+            "expectedSource": "PICK A SAVE",
+            "target": "CHỌN Ô LƯU",
+            "currentNormalized": "CHỌN Ô LƯU",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/SFXRow/SFXText",
+            "expectedSource": "SFX",
+            "target": "Hiệu ứng",
+            "currentNormalized": "Hiệu ứng",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/TargetFPSRow/TargetFPSText",
+            "expectedSource": "Target FPS",
+            "target": "FPS mục tiêu",
+            "currentNormalized": "FPS mục tiêu",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MenuScene.unity",
+            "hierarchyPath": "Canvas/ExitGamePanel/ConfirmText",
+            "expectedSource": "DO YOU WANT TO EXIT THE GAME?",
+            "target": "BẠN MUỐN THOÁT TRÒ CHƠI?",
+            "currentNormalized": "BẠN MUỐN THOÁT TRÒ CHƠI?",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ShopPanel/BookContainer/SellPage/NoteText",
+            "expectedSource": "* Your tems will be sold the next morning",
+            "target": "* Hàng sẽ được bán vào sáng hôm sau",
+            "currentNormalized": "* Hàng sẽ được bán vào sáng hôm sau",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/PausePanel/ExitGameButton/ExitGameText",
+            "expectedSource": "EXIT GAME",
+            "target": "THOÁT TRÒ CHƠI",
+            "currentNormalized": "THOÁT TRÒ CHƠI",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ItemActionPanel/SellButton/SelllText",
+            "expectedSource": "Sell",
+            "target": "Bán",
+            "currentNormalized": "Bán",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/PausePanel/OpenSettingsButton/OpenSettingsText",
+            "expectedSource": "SETTINGS",
+            "target": "CÀI ĐẶT",
+            "currentNormalized": "CÀI ĐẶT",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ItemActionPanel/SellAllButton/SellAllText",
+            "expectedSource": "Sell All",
+            "target": "Bán tất cả",
+            "currentNormalized": "Bán tất cả",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ShopPanel/BookContainer/SellPage/MyItemsHeader",
+            "expectedSource": "MY ITEMS",
+            "target": "ĐỒ CỦA TÔI",
+            "currentNormalized": "ĐỒ CỦA TÔI",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ShopPanel/BookContainer/BuyPage/NoteText",
+            "expectedSource": "* Items will arrive the next morning",
+            "target": "* Hàng sẽ được giao vào sáng hôm sau",
+            "currentNormalized": "* Hàng sẽ được giao vào sáng hôm sau",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/DialoguePanel/DialogueBox/ChoicesContainer/GoodbyeButton/GoodbyeText",
+            "expectedSource": "Take care!",
+            "target": "Bà giữ sức khỏe nhen!",
+            "currentNormalized": "Bà giữ sức khỏe nhen!",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/FullscreenRow/FullscreenText",
+            "expectedSource": "Fullscreen",
+            "target": "Toàn màn hình",
+            "currentNormalized": "Toàn màn hình",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ShopPanel/BookContainer/SellPage/ToSellHeader",
+            "expectedSource": "TO SELL",
+            "target": "HÀNG SẼ BÁN",
+            "currentNormalized": "HÀNG SẼ BÁN",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ShopPanel/BookContainer/TabsContainer/BuyTabButton/BuyTabText",
+            "expectedSource": "Buy",
+            "target": "Mua",
+            "currentNormalized": "Mua",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/PausePanel/BackToMenuButton/BackToMenuText",
+            "expectedSource": "BACK TO MENU",
+            "target": "VỀ MENU",
+            "currentNormalized": "VỀ MENU",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/DialoguePanel/DialogueBox/NPCNameText",
+            "expectedSource": "Clove",
+            "target": "Bà Năm",
+            "currentNormalized": "Bà Năm",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/PausePanel/ResumeGameButton/ResumeGameButton",
+            "expectedSource": "RESUME",
+            "target": "TIẾP TỤC",
+            "currentNormalized": "TIẾP TỤC",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/TargetFPSRow/TargetFPSText",
+            "expectedSource": "Target FPS",
+            "target": "FPS mục tiêu",
+            "currentNormalized": "FPS mục tiêu",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ShopPanel/BookContainer/TabsContainer/SellTabButton/SellTabText",
+            "expectedSource": "Sell",
+            "target": "Bán",
+            "currentNormalized": "Bán",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/DialoguePanel/DialogueBox/ChoicesContainer/ShopButton/ShopText",
+            "expectedSource": "Show what you've got!",
+            "target": "Cho cháu xem hàng với!",
+            "currentNormalized": "Cho cháu xem hàng với!",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/SFXRow/SFXText",
+            "expectedSource": "SFX",
+            "target": "Hiệu ứng",
+            "currentNormalized": "Hiệu ứng",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ShopPanel/BookContainer/BuyPage/ShopHeader",
+            "expectedSource": "SHOP",
+            "target": "TIỆM BÀ NĂM",
+            "currentNormalized": "TIỆM BÀ NĂM",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ShopPanel/BookContainer/BuyPage/OrderHeader",
+            "expectedSource": "ORDER",
+            "target": "ĐƠN HÀNG",
+            "currentNormalized": "ĐƠN HÀNG",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/AmbienceRow/AmbienceText",
+            "expectedSource": "Ambience",
+            "target": "Âm thanh môi trường",
+            "currentNormalized": "Âm thanh môi trường",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ItemActionPanel/RemoveButton/RemoveText",
+            "expectedSource": "Remove",
+            "target": "Bỏ",
+            "currentNormalized": "Bỏ",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/TimePanel/ClockGroup/Text/LabelText",
+            "expectedSource": "DAY",
+            "target": "NGÀY",
+            "currentNormalized": "NGÀY",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/SettingsPanel/Rows/MusicRow/MusicText",
+            "expectedSource": "Music",
+            "target": "Nhạc",
+            "currentNormalized": "Nhạc",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/SavingIndicator/SavingLabel",
+            "expectedSource": "Saving...",
+            "target": "Đang lưu…",
+            "currentNormalized": "Đang lưu…",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Scenes/MainScene.unity",
+            "hierarchyPath": "Canvas/ExitGamePanel/ConfirmText",
+            "expectedSource": "DO YOU WANT TO EXIT THE GAME?",
+            "target": "BẠN MUỐN THOÁT TRÒ CHƠI?",
+            "currentNormalized": "BẠN MUỐN THOÁT TRÒ CHƠI?",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/ExitGamePanel.prefab",
+            "hierarchyPath": "ExitGamePanel/ConfirmText",
+            "expectedSource": "DO YOU WANT TO EXIT THE GAME?",
+            "target": "BẠN MUỐN THOÁT TRÒ CHƠI?",
+            "currentNormalized": "BẠN MUỐN THOÁT TRÒ CHƠI?",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/EmptySaveSlot.prefab",
+            "hierarchyPath": "EmptySaveSlot/NewGameText",
+            "expectedSource": "START A NEW GAME",
+            "target": "BẮT ĐẦU TRÒ CHƠI MỚI",
+            "currentNormalized": "BẮT ĐẦU TRÒ CHƠI MỚI",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/FilledSaveSlot.prefab",
+            "hierarchyPath": "FilledSaveSlot/SlotPanel/InfoGroup/IslandText",
+            "expectedSource": "THE SPROUTY ISLAND",
+            "target": "LÀNG QUÊ TÔI",
+            "currentNormalized": "LÀNG QUÊ TÔI",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/FilledSaveSlot.prefab",
+            "hierarchyPath": "FilledSaveSlot/SlotPanel/InfoGroup/DayText",
+            "expectedSource": "x Days",
+            "target": "Ngày x",
+            "currentNormalized": "Ngày x",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/MyItemsRow.prefab",
+            "hierarchyPath": "MyItemsRow/NamePriceGroup/ItemNameText",
+            "expectedSource": "Carrot Seed",
+            "target": "Hạt giống cà rốt",
+            "currentNormalized": "Hạt giống cà rốt",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/MyItemsRow.prefab",
+            "hierarchyPath": "MyItemsRow/NamePriceGroup/PriceText",
+            "expectedSource": "Sell: 2 - x1",
+            "target": "Bán: 2 ₫ - x1",
+            "currentNormalized": "Bán: 2 ₫ - x1",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/OrderItemRow.prefab",
+            "hierarchyPath": "OrderItemRow/NamePriceGroup/ItemNameText",
+            "expectedSource": "Carrot Seed",
+            "target": "Hạt giống cà rốt",
+            "currentNormalized": "Hạt giống cà rốt",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/OrderItemRow.prefab",
+            "hierarchyPath": "OrderItemRow/NamePriceGroup/PriceText",
+            "expectedSource": "Price: 2",
+            "target": "Giá: 2 ₫",
+            "currentNormalized": "Giá: 2 ₫",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/ShopItemRow.prefab",
+            "hierarchyPath": "ShopItemRow/NamePriceGroup/ItemNameText",
+            "expectedSource": "Carrot Seed",
+            "target": "Hạt giống cà rốt",
+            "currentNormalized": "Hạt giống cà rốt",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/ShopItemRow.prefab",
+            "hierarchyPath": "ShopItemRow/NamePriceGroup/PriceText",
+            "expectedSource": "Price: 2",
+            "target": "Giá: 2 ₫",
+            "currentNormalized": "Giá: 2 ₫",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/ToSellItemRow.prefab",
+            "hierarchyPath": "ToSellItemRow/NamePriceGroup/ItemNameText",
+            "expectedSource": "Carrot Seed",
+            "target": "Hạt giống cà rốt",
+            "currentNormalized": "Hạt giống cà rốt",
+            "status": "already_target"
+        },
+        {
+            "assetPath": "Assets/Prefabs/UI/ToSellItemRow.prefab",
+            "hierarchyPath": "ToSellItemRow/NamePriceGroup/PriceText",
+            "expectedSource": "Sell: 2",
+            "target": "Bán: 2 ₫",
+            "currentNormalized": "Bán: 2 ₫",
+            "status": "already_target"
+        }
+    ],
+    "errors": []
+}

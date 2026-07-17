@@ -1,0 +1,707 @@
+{
+    "mode": "apply",
+    "timestampUtc": "2026-07-17T15:18:48.3601749Z",
+    "counts": {
+        "items": 68,
+        "fish": 36,
+        "seeds": 8,
+        "crops": 8,
+        "shops": 1,
+        "changed": 0,
+        "unmapped": 0,
+        "errors": 0
+    },
+    "expected": {
+        "items": 68,
+        "fish": 36,
+        "seeds": 8,
+        "crops": 8,
+        "shops": 1,
+        "changed": 0,
+        "unmapped": 0,
+        "errors": 0
+    },
+    "entries": [
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Anchovy.asset",
+            "propertyName": "itemName",
+            "before": "Cá cơm",
+            "after": "Cá cơm",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Axolotl.asset",
+            "propertyName": "itemName",
+            "before": "Kỳ giông Mexico",
+            "after": "Kỳ giông Mexico",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Betta.asset",
+            "propertyName": "itemName",
+            "before": "Cá lia thia",
+            "after": "Cá lia thia",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Clownfish.asset",
+            "propertyName": "itemName",
+            "before": "Cá hề",
+            "after": "Cá hề",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Coral.asset",
+            "propertyName": "itemName",
+            "before": "San hô",
+            "after": "San hô",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Crab.asset",
+            "propertyName": "itemName",
+            "before": "Cua",
+            "after": "Cua",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/EmptyCan.asset",
+            "propertyName": "itemName",
+            "before": "Lon rỗng",
+            "after": "Lon rỗng",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Flounder.asset",
+            "propertyName": "itemName",
+            "before": "Cá bơn",
+            "after": "Cá bơn",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Frog.asset",
+            "propertyName": "itemName",
+            "before": "Ếch",
+            "after": "Ếch",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Goldfish.asset",
+            "propertyName": "itemName",
+            "before": "Cá vàng",
+            "after": "Cá vàng",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Hammerhead.asset",
+            "propertyName": "itemName",
+            "before": "Cá mập đầu búa",
+            "after": "Cá mập đầu búa",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Jellyfish.asset",
+            "propertyName": "itemName",
+            "before": "Sứa",
+            "after": "Sứa",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Lobster.asset",
+            "propertyName": "itemName",
+            "before": "Tôm hùm",
+            "after": "Tôm hùm",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/MorayEel.asset",
+            "propertyName": "itemName",
+            "before": "Cá lịch biển",
+            "after": "Cá lịch biển",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Nautilus.asset",
+            "propertyName": "itemName",
+            "before": "Ốc anh vũ",
+            "after": "Ốc anh vũ",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Octopus.asset",
+            "propertyName": "itemName",
+            "before": "Bạch tuộc",
+            "after": "Bạch tuộc",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/PearlShell.asset",
+            "propertyName": "itemName",
+            "before": "Vỏ trai ngọc",
+            "after": "Vỏ trai ngọc",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/PlasticBag.asset",
+            "propertyName": "itemName",
+            "before": "Túi nhựa",
+            "after": "Túi nhựa",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/PlasticBottle.asset",
+            "propertyName": "itemName",
+            "before": "Chai nhựa",
+            "after": "Chai nhựa",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Pomfret.asset",
+            "propertyName": "itemName",
+            "before": "Cá chim",
+            "after": "Cá chim",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Pufferfish.asset",
+            "propertyName": "itemName",
+            "before": "Cá nóc",
+            "after": "Cá nóc",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/RedSnapper.asset",
+            "propertyName": "itemName",
+            "before": "Cá hồng",
+            "after": "Cá hồng",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/SeaSerpent.asset",
+            "propertyName": "itemName",
+            "before": "Hải xà",
+            "after": "Hải xà",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/SeaSnake.asset",
+            "propertyName": "itemName",
+            "before": "Rắn biển",
+            "after": "Rắn biển",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/SeaUrchin.asset",
+            "propertyName": "itemName",
+            "before": "Cầu gai",
+            "after": "Cầu gai",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Seahorse.asset",
+            "propertyName": "itemName",
+            "before": "Cá ngựa",
+            "after": "Cá ngựa",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Seaweed.asset",
+            "propertyName": "itemName",
+            "before": "Rong biển",
+            "after": "Rong biển",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Shark.asset",
+            "propertyName": "itemName",
+            "before": "Cá mập",
+            "after": "Cá mập",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Shrimp.asset",
+            "propertyName": "itemName",
+            "before": "Tôm",
+            "after": "Tôm",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Squid.asset",
+            "propertyName": "itemName",
+            "before": "Mực",
+            "after": "Mực",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Starfish.asset",
+            "propertyName": "itemName",
+            "before": "Sao biển",
+            "after": "Sao biển",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Stingray.asset",
+            "propertyName": "itemName",
+            "before": "Cá đuối",
+            "after": "Cá đuối",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Sunfish.asset",
+            "propertyName": "itemName",
+            "before": "Cá mặt trời",
+            "after": "Cá mặt trời",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Swordfish.asset",
+            "propertyName": "itemName",
+            "before": "Cá kiếm",
+            "after": "Cá kiếm",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Tuna.asset",
+            "propertyName": "itemName",
+            "before": "Cá ngừ",
+            "after": "Cá ngừ",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/FishSO/Turtle.asset",
+            "propertyName": "itemName",
+            "before": "Rùa biển",
+            "after": "Rùa biển",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/CarrotSeedSO.asset",
+            "propertyName": "itemName",
+            "before": "Hạt giống cà rốt",
+            "after": "Hạt giống cà rốt",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/CornSeedSO.asset",
+            "propertyName": "itemName",
+            "before": "Hạt giống bắp",
+            "after": "Hạt giống bắp",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/EggplantSeedSO.asset",
+            "propertyName": "itemName",
+            "before": "Hạt giống cà tím",
+            "after": "Hạt giống cà tím",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/LettuceSeedSO.asset",
+            "propertyName": "itemName",
+            "before": "Hạt giống xà lách",
+            "after": "Hạt giống xà lách",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/PumpkinSeedSO.asset",
+            "propertyName": "itemName",
+            "before": "Hạt giống bí đỏ",
+            "after": "Hạt giống bí đỏ",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/TomatoSeedSO.asset",
+            "propertyName": "itemName",
+            "before": "Hạt giống cà chua",
+            "after": "Hạt giống cà chua",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/TurnipSeedSO.asset",
+            "propertyName": "itemName",
+            "before": "Hạt giống củ cải",
+            "after": "Hạt giống củ cải",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/WheatSeedSO.asset",
+            "propertyName": "itemName",
+            "before": "Hạt giống lúa mì",
+            "after": "Hạt giống lúa mì",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Apple.asset",
+            "propertyName": "itemName",
+            "before": "Táo",
+            "after": "Táo",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Beet.asset",
+            "propertyName": "itemName",
+            "before": "Củ dền",
+            "after": "Củ dền",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Carrot.asset",
+            "propertyName": "itemName",
+            "before": "Cà rốt",
+            "after": "Cà rốt",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Corn.asset",
+            "propertyName": "itemName",
+            "before": "Bắp",
+            "after": "Bắp",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/EggDefault.asset",
+            "propertyName": "itemName",
+            "before": "Trứng",
+            "after": "Trứng",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Eggplant.asset",
+            "propertyName": "itemName",
+            "before": "Cà tím",
+            "after": "Cà tím",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Grass.asset",
+            "propertyName": "itemName",
+            "before": "Cỏ",
+            "after": "Cỏ",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/GreenBeen.asset",
+            "propertyName": "itemName",
+            "before": "Đậu cô ve",
+            "after": "Đậu cô ve",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Lettuce.asset",
+            "propertyName": "itemName",
+            "before": "Xà lách",
+            "after": "Xà lách",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Log.asset",
+            "propertyName": "itemName",
+            "before": "Gỗ",
+            "after": "Gỗ",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Lotus.asset",
+            "propertyName": "itemName",
+            "before": "Hoa sen",
+            "after": "Hoa sen",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Milk.asset",
+            "propertyName": "itemName",
+            "before": "Sữa",
+            "after": "Sữa",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Orange.asset",
+            "propertyName": "itemName",
+            "before": "Cam",
+            "after": "Cam",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Peach.asset",
+            "propertyName": "itemName",
+            "before": "Đào",
+            "after": "Đào",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Pear.asset",
+            "propertyName": "itemName",
+            "before": "Lê",
+            "after": "Lê",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Pumpkin.asset",
+            "propertyName": "itemName",
+            "before": "Bí đỏ",
+            "after": "Bí đỏ",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/StarFruit.asset",
+            "propertyName": "itemName",
+            "before": "Khế",
+            "after": "Khế",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Stone.asset",
+            "propertyName": "itemName",
+            "before": "Đá",
+            "after": "Đá",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Tomato.asset",
+            "propertyName": "itemName",
+            "before": "Cà chua",
+            "after": "Cà chua",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Tulip.asset",
+            "propertyName": "itemName",
+            "before": "Hoa tulip",
+            "after": "Hoa tulip",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Turnip.asset",
+            "propertyName": "itemName",
+            "before": "Củ cải",
+            "after": "Củ cải",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/WorldItem/Wheat.asset",
+            "propertyName": "itemName",
+            "before": "Lúa mì",
+            "after": "Lúa mì",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ToolSO/FishingRod.asset",
+            "propertyName": "itemName",
+            "before": "Cần câu",
+            "after": "Cần câu",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ToolSO/SeedBag.asset",
+            "propertyName": "itemName",
+            "before": "Túi hạt giống",
+            "after": "Túi hạt giống",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/CarrotSeedSO.asset",
+            "propertyName": "seedName",
+            "before": "Hạt giống cà rốt",
+            "after": "Hạt giống cà rốt",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/CornSeedSO.asset",
+            "propertyName": "seedName",
+            "before": "Hạt giống bắp",
+            "after": "Hạt giống bắp",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/EggplantSeedSO.asset",
+            "propertyName": "seedName",
+            "before": "Hạt giống cà tím",
+            "after": "Hạt giống cà tím",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/LettuceSeedSO.asset",
+            "propertyName": "seedName",
+            "before": "Hạt giống xà lách",
+            "after": "Hạt giống xà lách",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/PumpkinSeedSO.asset",
+            "propertyName": "seedName",
+            "before": "Hạt giống bí đỏ",
+            "after": "Hạt giống bí đỏ",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/TomatoSeedSO.asset",
+            "propertyName": "seedName",
+            "before": "Hạt giống cà chua",
+            "after": "Hạt giống cà chua",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/TurnipSeedSO.asset",
+            "propertyName": "seedName",
+            "before": "Hạt giống củ cải",
+            "after": "Hạt giống củ cải",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ItemSO/SeedSO/WheatSeedSO.asset",
+            "propertyName": "seedName",
+            "before": "Hạt giống lúa mì",
+            "after": "Hạt giống lúa mì",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/CropDataSO/CarrotCrop.asset",
+            "propertyName": "cropName",
+            "before": "Cà rốt",
+            "after": "Cà rốt",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/CropDataSO/CornCrop.asset",
+            "propertyName": "cropName",
+            "before": "Bắp",
+            "after": "Bắp",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/CropDataSO/EggplantCrop.asset",
+            "propertyName": "cropName",
+            "before": "Cà tím",
+            "after": "Cà tím",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/CropDataSO/LettuceCrop.asset",
+            "propertyName": "cropName",
+            "before": "Xà lách",
+            "after": "Xà lách",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/CropDataSO/PumpkinCrop.asset",
+            "propertyName": "cropName",
+            "before": "Bí đỏ",
+            "after": "Bí đỏ",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/CropDataSO/TomatoCrop.asset",
+            "propertyName": "cropName",
+            "before": "Cà chua",
+            "after": "Cà chua",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/CropDataSO/TurnipCrop.asset",
+            "propertyName": "cropName",
+            "before": "Củ cải",
+            "after": "Củ cải",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/CropDataSO/WheatCrop.asset",
+            "propertyName": "cropName",
+            "before": "Lúa mì",
+            "after": "Lúa mì",
+            "changed": false,
+            "status": "ok"
+        },
+        {
+            "assetPath": "Assets/ScriptableObjects/ShopSO/Shop.asset",
+            "propertyName": "shopName",
+            "before": "Tiệm Bà Năm",
+            "after": "Tiệm Bà Năm",
+            "changed": false,
+            "status": "ok"
+        }
+    ],
+    "errors": []
+}

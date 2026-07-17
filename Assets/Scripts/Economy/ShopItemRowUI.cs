@@ -2,6 +2,7 @@
 // TheSprouty | Economy/ShopItemRowUI.cs
 // Displays a single ShopItemEntry in the Shop scroll view.
 // ──────────────────────────────────────────────
+using LangQueToi;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -32,7 +33,7 @@ public class ShopItemRowUI : MonoBehaviour
 
         itemIcon.sprite  = entry.item.icon;
         itemNameText.text = entry.item.itemName;
-        priceText.text    = $"Price: {entry.buyPrice}";
+        priceText.text    = Loc.Format("shop.buy_unit", Loc.Gold(entry.buyPrice));
 
         addButton.onClick.RemoveAllListeners();
         addButton.onClick.AddListener(OnAddClicked);

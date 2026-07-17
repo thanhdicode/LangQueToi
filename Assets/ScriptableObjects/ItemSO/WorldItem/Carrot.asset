@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: Carrot
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Carrot
+  itemName: "C\xE0 r\u1ED1t"
   icon: {fileID: -1407192652626693244, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 4874526770326244874, guid: ce75091601940bf4e81fd2fa631f13de, type: 3}
   maxStackSize: 99

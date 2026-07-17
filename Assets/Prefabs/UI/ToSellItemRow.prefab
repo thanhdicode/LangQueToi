@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Carrot Seed
+  m_text: "H\u1EA1t gi\u1ED1ng c\xE0 r\u1ED1t"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 912305a9b989f884f9eb5d61929bf24a, type: 2}
   m_sharedMaterial: {fileID: -3008530652454262713, guid: 912305a9b989f884f9eb5d61929bf24a, type: 2}
@@ -712,7 +712,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Sell: 2'
+  m_text: "B\xE1n: 2 \u20AB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 912305a9b989f884f9eb5d61929bf24a, type: 2}
   m_sharedMaterial: {fileID: -3008530652454262713, guid: 912305a9b989f884f9eb5d61929bf24a, type: 2}

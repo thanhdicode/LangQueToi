@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: Turnip
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Turnip
+  itemName: "C\u1EE7 c\u1EA3i"
   icon: {fileID: -7351753687751529859, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 8955920236366553697, guid: e2dd717ab5bbfa641b713181950d3c32, type: 3}
   maxStackSize: 99

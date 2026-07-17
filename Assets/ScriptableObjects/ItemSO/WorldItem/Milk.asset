@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: Milk
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Milk
+  itemName: "S\u1EEFa"
   icon: {fileID: 9199247751420650470, guid: 2bc6402980a669144b04c8f75ef2c81d, type: 3}
   prefab: {fileID: 578563053304801618, guid: 9b8925dea7d1e8944a9c0c751a8be4c4, type: 3}
   maxStackSize: 99

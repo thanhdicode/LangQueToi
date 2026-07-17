@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: Tomato
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Tomato
+  itemName: "C\xE0 chua"
   icon: {fileID: -3202463750465312422, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 6621352051456820957, guid: d72d7a637ca9f634bb8b709e12a23478, type: 3}
   maxStackSize: 99

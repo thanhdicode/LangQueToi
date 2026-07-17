@@ -4,6 +4,7 @@
 // Implements IInteractable (indicator feedback) and IUsable (actual use).
 // ──────────────────────────────────────────────
 using System;
+using LangQueToi;
 using UnityEngine;
 
 public class BedInteractable : MonoBehaviour, IInteractable, IUsable
@@ -58,7 +59,7 @@ public class BedInteractable : MonoBehaviour, IInteractable, IUsable
 
         if (!sleepStarted)
         {
-            NotificationManager.Instance?.ShowMessage("Not time to sleep yet!");
+            NotificationManager.Instance?.ShowMessage(Loc.Get("bed.too_early"));
         }
     }
 

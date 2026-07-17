@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c22e79f1ace97c4e8996a86f64c2530, type: 3}
   m_Name: LettuceCrop
   m_EditorClassIdentifier: Assembly-CSharp::CropDataSO
-  cropName: Lettuce Crop
+  cropName: "X\xE0 l\xE1ch"
   stages:
   - sprite: {fileID: 2072862404122990272, guid: bbeedc1c37949ab468e8beb9230628cc, type: 3}
     hoursToNextStage: 21

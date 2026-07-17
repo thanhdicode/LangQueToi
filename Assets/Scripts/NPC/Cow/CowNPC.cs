@@ -3,6 +3,7 @@
 // Concrete cow NPC shared by all color variants.
 // Visual differences handled by CowAnimator subclasses.
 // ──────────────────────────────────────────────
+using LangQueToi;
 using UnityEngine;
 
 public class CowNPC : BaseAnimalNPC, IInteractable, IUsable
@@ -108,12 +109,12 @@ public class CowNPC : BaseAnimalNPC, IInteractable, IUsable
                 break;
 
             case FeedResult.AlreadyFed:
-                NotificationManager.Instance?.ShowMessage("Already fed today!");
+                NotificationManager.Instance?.ShowMessage(Loc.Get("animal.already_fed"));
                 break;
 
             case FeedResult.InsufficientFeed:
                 string itemName = AnimalData?.feedItem?.itemName ?? "feed";
-                NotificationManager.Instance?.ShowMessage($"Need {itemName}!");
+                NotificationManager.Instance?.ShowMessage(Loc.Format("animal.need_feed", itemName));
                 break;
 
             case FeedResult.NoFeedConfigured:

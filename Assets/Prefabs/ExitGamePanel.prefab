@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DO YOU WANT TO EXIT THE GAME?
+  m_text: "B\u1EA0N MU\u1ED0N THO\xC1T TR\xD2 CH\u01A0I?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc2643d739d121644a161d1537fd31f4, type: 2}
   m_sharedMaterial: {fileID: -3008530652454262713, guid: dc2643d739d121644a161d1537fd31f4, type: 2}

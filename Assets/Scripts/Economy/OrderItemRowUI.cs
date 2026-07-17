@@ -3,6 +3,7 @@
 // Displays a single order item in the Order scroll view.
 // Handles +1 / -1 quantity. Destroys self when quantity reaches 0.
 // ──────────────────────────────────────────────
+using LangQueToi;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,7 +37,7 @@ public class OrderItemRowUI : MonoBehaviour
 
         itemIcon.sprite   = entry.item.icon;
         itemNameText.text = entry.item.itemName;
-        priceText.text    = $"Price: {entry.buyPrice}";
+        priceText.text    = Loc.Format("shop.buy_unit", Loc.Gold(entry.buyPrice));
 
         removeButton.onClick.RemoveAllListeners();
         removeButton.onClick.AddListener(OnRemoveClicked);

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40950fe5af00e7643bdbf8b9fd034442, type: 3}
   m_Name: Pumpkin
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Pumpkin
+  itemName: "B\xED \u0111\u1ECF"
   icon: {fileID: 8927835903354673726, guid: 58da7a566b12ef94ebba7b9f74d2fe9d, type: 3}
   prefab: {fileID: 1857521195857814395, guid: 666315a30c98f5c49acf26b8fb841e02, type: 3}
   maxStackSize: 99

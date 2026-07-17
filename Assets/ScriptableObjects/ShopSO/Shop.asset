@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5208e671cf55e244a0d2ebc3001ff2c, type: 3}
   m_Name: Shop
   m_EditorClassIdentifier: Assembly-CSharp::ShopSO
-  shopName: Sop Sop
+  shopName: "Ti\u1EC7m B\xE0 N\u0103m"
   items:
   - item: {fileID: 11400000, guid: 98ad8d738b06512479f602cd8f0c8d3e, type: 2}
     buyPrice: 14

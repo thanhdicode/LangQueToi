@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: START A NEW GAME
+  m_text: "B\u1EAET \u0110\u1EA6U TR\xD2 CH\u01A0I M\u1EDAI"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0d47f9d1b29b17340bc1ea2abed77158, type: 2}
   m_sharedMaterial: {fileID: -3008530652454262713, guid: 0d47f9d1b29b17340bc1ea2abed77158, type: 2}

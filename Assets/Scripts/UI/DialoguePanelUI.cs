@@ -6,8 +6,10 @@
 // ──────────────────────────────────────────────
 using System;
 using System.Collections;
+using LangQueToi;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialoguePanelUI : MonoBehaviour
 {
@@ -27,6 +29,12 @@ public class DialoguePanelUI : MonoBehaviour
     [Header("Typewriter")]
     [SerializeField] private float typingSpeed = 0.04f;
     [SerializeField] private SoundEventSO typingSound;
+
+    [Header("Speaker")]
+    [SerializeField] private Image portraitImage;
+    [SerializeField] private TMP_Text speakerNameText;
+    [SerializeField] private Sprite defaultPortrait;
+    [SerializeField] private string defaultSpeakerName = "Bà Năm";
 
     // ----------------------------------------------------------
     // Private state
@@ -67,14 +75,25 @@ public class DialoguePanelUI : MonoBehaviour
     // ----------------------------------------------------------
     // Public API
     // ----------------------------------------------------------
-    /// <summary>Opens the dialogue panel with animation, freezes player movement and hides indicator.</summary>
+    /// <summary>Opens the dialogue panel with a random Bà Năm greeting.
+    /// Kept for backward-compatibility with existing Inspector wiring.</summary>
     public void Open()
     {
+        int greeting = UnityEngine.Random.Range(0, 4);
+        Open(new DialoguePresentation(
+            defaultSpeakerName,
+            defaultPortrait,
+            Loc.Get($"dialogue.shop.greeting.{greeting}")));
+    }
+
+    /// <summary>Opens the dialogue panel with explicit speaker/portrait/text.</summary>
+    public void Open(DialoguePresentation presentation)
+    {
+        ApplyPresentation(presentation);
         _isOpen = true;
         Player.Instance.EnterDialogue();
         playerIndicator.Hide();
-        _dialogueAnimator.Show(onComplete: () =>
-            PlayDialogue("What a lovely day to stop by! The shelves are fresh. See anything you fancy?"));
+        _dialogueAnimator.Show(onComplete: () => PlayDialogue(presentation.Text));
     }
 
     /// <summary>Closes the dialogue panel with animation, restores player movement and shows indicator.
@@ -84,8 +103,13 @@ public class DialoguePanelUI : MonoBehaviour
 
     public void Close(Action onComplete)
     {
-        StopAllCoroutines();
-        _typingCoroutine = null;
+        // Guarded stop — only cancel our own typing coroutine, not unrelated coroutines
+        // on this GameObject (e.g. the animator's own routines).
+        if (_typingCoroutine != null)
+        {
+            StopCoroutine(_typingCoroutine);
+            _typingCoroutine = null;
+        }
         dialogueText.text = "";
         continueIndicator.SetActive(false);
         choicesContainer.SetActive(false);
@@ -94,6 +118,7 @@ public class DialoguePanelUI : MonoBehaviour
         _dialogueAnimator.Hide(onComplete: () =>
         {
             _isOpen = false;
+            ResetPresentation();
             onComplete?.Invoke();
         });
     }
@@ -111,6 +136,28 @@ public class DialoguePanelUI : MonoBehaviour
     // ----------------------------------------------------------
     // Private methods
     // ----------------------------------------------------------
+    private void ApplyPresentation(DialoguePresentation presentation)
+    {
+        if (speakerNameText != null)
+            speakerNameText.text = presentation.SpeakerName;
+        if (portraitImage != null)
+        {
+            portraitImage.sprite = presentation.Portrait;
+            portraitImage.enabled = presentation.Portrait != null;
+        }
+    }
+
+    private void ResetPresentation()
+    {
+        if (speakerNameText != null)
+            speakerNameText.text = string.Empty;
+        if (portraitImage != null)
+        {
+            portraitImage.sprite = null;
+            portraitImage.enabled = false;
+        }
+    }
+
     private IEnumerator TypeRoutine()
     {
         continueIndicator.SetActive(false);

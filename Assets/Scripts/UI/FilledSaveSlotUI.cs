@@ -3,6 +3,7 @@
 // Extends SaveSlotUI for slots that have existing save data.
 // Enables CharacterModel Animator on select, populates Day and Gold text.
 // ──────────────────────────────────────────────
+using LangQueToi;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -77,7 +78,7 @@ public class FilledSaveSlotUI : SaveSlotUI
         GameSaveData data = SaveManager.GetSlotData(slotIndex);
         if (data == null) return;
 
-        dayText.text  = $"{data.time.currentDay} Days";
-        goldText.text = data.gold.ToString();
+        dayText.text  = Loc.Day(data.time.currentDay);
+        goldText.text = Loc.Gold(data.gold);
     }
 }

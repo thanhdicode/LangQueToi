@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220a11612f422194fae7b943f5864a5f, type: 3}
   m_Name: Frog
   m_EditorClassIdentifier: Assembly-CSharp::FishSO
-  itemName: Frog
+  itemName: "\u1EBEch"
   icon: {fileID: -1497854891, guid: 2a6a0e75de80be9499630e1caecad83e, type: 3}
   prefab: {fileID: 0}
   maxStackSize: 99
