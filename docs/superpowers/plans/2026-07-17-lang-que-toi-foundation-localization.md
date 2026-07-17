@@ -76,7 +76,7 @@ Expected: version changes are explainable; the final `rg` returns no matches. If
 - [ ] **Step 4: Commit the upgrade checkpoint**
 
 ```powershell
-git add ProjectSettings Packages Artifacts/Logs/unity-upgrade.log
+git add ProjectSettings Packages
 git commit -m "chore: upgrade project to Unity 6000.4.6f1"
 ```
 
@@ -281,7 +281,7 @@ Run the same Unity command with `loc-tests-green.xml` and `loc-tests-green.log`.
 Expected: all `LocTests` pass and no compiler errors.
 
 ```powershell
-git add Assets/LangQueToi Artifacts/Logs/loc-tests-green.xml Artifacts/Logs/loc-tests-green.log
+git add Assets/LangQueToi Artifacts/Logs/loc-tests-green.xml
 git commit -m "feat: add Vietnamese localization runtime"
 ```
 
@@ -406,7 +406,7 @@ Run all EditMode tests. Then run a batch `-quit` compile and search its log for 
 Expected: tests pass; zero compilation errors; coverage test passes.
 
 ```powershell
-git add Assets/Scripts Assets/LangQueToi/Tests Artifacts/Logs
+git add Assets/Scripts Assets/LangQueToi/Tests
 git commit -m "feat: localize runtime UI and notifications"
 ```
 
@@ -587,7 +587,7 @@ Expected: both save assignments still use `.name`; no save schema changes.
 - [ ] **Step 6: Commit migrated data and reports**
 
 ```powershell
-git add Assets/ScriptableObjects Assets/Scripts/Editor/LQTLocalizationManifest.cs Assets/Scripts/Editor/LQTDataLocalizer.cs Artifacts/Localization Artifacts/Logs
+git add Assets/ScriptableObjects Assets/Scripts/Editor/LQTLocalizationManifest.cs Assets/Scripts/Editor/LQTDataLocalizer.cs Artifacts/Localization
 git commit -m "feat: localize item crop and shop display data"
 ```
 
@@ -621,7 +621,7 @@ MenuScene.unity | Canvas/SettingsPanel/Rows/AmbienceRow/AmbienceText | Ambience 
 MenuScene.unity | Canvas/SettingsPanel/Rows/MusicRow/MusicText | Music | Nhạc
 MenuScene.unity | Canvas/CreditsPanel/HeaderText | CREDITS | GHI CÔNG
 MenuScene.unity | Canvas/ConfirmRemovePanel/ConfirmText | DO YOU WANT TO REMOVE THIS SAVE? | XÓA DỮ LIỆU LƯU NÀY?
-MenuScene.unity | Canvas/AboutPanel/Scroll View/Viewport/Content/AboutText | The Sprouty is a cozy 2D pixel art farming game where you tend your land, | Làng Quê Tôi là trò chơi nông trại pixel 2D ấm áp. Chăm ruộng, câu cá, nuôi vật và tận hưởng nhịp sống yên bình bên miền sông nước.
+MenuScene.unity | Canvas/AboutPanel/Scroll View/Viewport/Content/AboutText | [LONG_ABOUT_SOURCE] | [LONG_ABOUT_TARGET]
 MenuScene.unity | Canvas/SavePanel/HeaderText | PICK A SAVE | CHỌN Ô LƯU
 MenuScene.unity | Canvas/SettingsPanel/Rows/SFXRow/SFXText | SFX | Hiệu ứng
 MenuScene.unity | Canvas/SettingsPanel/Rows/TargetFPSRow/TargetFPSText | Target FPS | FPS mục tiêu
@@ -671,22 +671,114 @@ ToSellItemRow.prefab | ToSellItemRow/NamePriceGroup/ItemNameText | Carrot Seed |
 ToSellItemRow.prefab | ToSellItemRow/NamePriceGroup/PriceText | Sell: 2 | Bán: 2 ₫
 ```
 
-The credits body target is set to:
+For the two long bodies, normalize only `\r\n` to `\n`, then compare the complete normalized source exactly. `LONG_ABOUT_SOURCE` is:
 
 ```text
-PHÁT TRIỂN
-TheSprouty Team
+The Sprouty is a cozy 2D pixel art farming game where you tend your land,
+grow crops, harvest and explore the world at your own peaceful pace.
 
-TÀI SẢN ĐỒ HỌA
-Sprout Lands — Cup Nooble
+─────────────────────────
 
-VIỆT HÓA & GIAO DIỆN
-Làng Quê Tôi
+Game Development Course Project
+Dalat University (DLU)
+
+─────────────────────────
+
+ DEVELOPMENT TEAM
+
+Nguyen Dinh Thach
+  ID: 2314506
+
+Pham Nguyen Ngoc Phuoc
+  ID: 2312718
+
+Nguyen Van Quoc
+  ID: 2312729
+```
+
+`LONG_ABOUT_TARGET` is:
+
+```text
+Làng Quê Tôi là trò chơi nông trại pixel 2D ấm áp, nơi bạn chăm ruộng,
+gieo trồng, thu hoạch và khám phá miền quê theo nhịp sống yên bình.
+
+─────────────────────────
+
+Đồ án môn Phát triển Trò chơi
+Trường Đại học Đà Lạt (DLU)
+
+─────────────────────────
+
+ NHÓM PHÁT TRIỂN
+
+Nguyen Dinh Thach
+  MSSV: 2314506
+
+Pham Nguyen Ngoc Phuoc
+  MSSV: 2312718
+
+Nguyen Van Quoc
+  MSSV: 2312729
+```
+
+The credits body uses the complete current source text as its guarded source (not a prefix). Its Vietnamese target is:
+
+```text
+─────────────────────────
+ TÀI SẢN ĐỒ HỌA
+─────────────────────────
+
+Sprout Lands – Asset Pack (Basic & Premium)
+Sprout Lands – UI Pack
+Sprout Lands – Free Gift "Sorry for the Delay"
+  bởi Cup Nooble
+  cupnooble.carrd.co
+
+Pixel UI Pack
+  bởi Immunity
+  immunitys.itch.io/pixel-ui-pack
+
+Nền & biểu trưng tiêu đề
+  Tác phẩm gốc của dự án Làng Quê Tôi
+
+─────────────────────────
+ ÂM NHẠC
+─────────────────────────
+
+Nhạc nền
+  "Sorry for the Delay" Pack — Cup Nooble
+  cupnooble.carrd.co
+  "Cozy Lofi Beat - Split memmories" — IdoBerg
+  "Cozy Morning" — folk_acoustic_music
+  pixabay.com/music
+
+─────────────────────────
+ HIỆU ỨNG ÂM THANH
+─────────────────────────
+
+Hiệu ứng âm thanh
+  "Sorry for the Delay" Pack — Cup Nooble
+  Pixabay Sound Effects — pixabay.com
+
+Hiệu ứng & âm thanh môi trường tạo bằng AI
+  ElevenLabs Sound Effects
+  elevenlabs.io
+
+─────────────────────────
+ CÔNG CỤ & BỘ MÁY
+─────────────────────────
+
+Bộ máy trò chơi
+  Unity 6 — unity.com
+
+Điều hướng 2D
+  NavMeshPlus bởi h8man
+  github.com/h8man/NavMeshPlus
 ```
 
 - [ ] **Step 2: Implement exact hierarchy lookup and source guards**
 
-Use `EditorSceneManager.OpenScene` for scenes and `PrefabUtility.LoadPrefabContents` for prefabs. Resolve each path by starting at the named root and calling `Transform.Find` on the remaining path. Require `TMP_Text`; if current text equals neither `expectedSource` nor `target`, record a fatal mismatch. Preserve every `GameObject.name` and GUID before/after.
+Use `EditorSceneManager.OpenScene` for scenes and `PrefabUtility.LoadPrefabContents` for prefabs. Resolve each path by starting at the named root and calling `Transform.Find` on the remaining path. Require `TMP_Text`; compare the complete string after newline normalization only. If current text equals neither the complete `expectedSource` nor the complete `target`, record a fatal mismatch. Prefix/substring guards are forbidden. Preserve every `GameObject.name` and GUID before/after.
 
 The write operation is exactly:
 
@@ -716,7 +808,7 @@ Expected: zero player-facing English findings.
 - [ ] **Step 5: Commit static localization**
 
 ```powershell
-git add Assets/Scenes Assets/Prefabs Assets/Scripts/Editor/LQTStaticTextLocalizer.cs Artifacts/Localization Artifacts/Logs
+git add Assets/Scenes Assets/Prefabs Assets/Scripts/Editor/LQTStaticTextLocalizer.cs Artifacts/Localization
 git commit -m "feat: localize static scene and prefab text"
 ```
 
@@ -784,7 +876,7 @@ Expected: exit 0, `fatalCount=0`, expected mapping counts, and no missing keys.
 - [ ] **Step 5: Commit and tag the completed localization phase**
 
 ```powershell
-git add Assets Artifacts/Localization Artifacts/SaveCompatibility Artifacts/Logs
+git add Assets Artifacts/Localization Artifacts/SaveCompatibility
 git commit -m "test: gate Vietnamese localization coverage"
 git tag v0.3-localization
 ```
