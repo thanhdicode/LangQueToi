@@ -382,15 +382,15 @@ namespace LangQueToi.EditorTools
             // MenuScene
             new(MenuScene, "Canvas/AboutPanel/HeaderText", "ABOUT", "GIỚI THIỆU"),
             new(MenuScene, "Canvas/SettingsPanel/Rows/FullscreenRow/FullscreenText", "Fullscreen", "Toàn màn hình"),
-            new(MenuScene, "Canvas/SettingsPanel/Rows/AmbienceRow/AmbienceText", "Ambience", "Âm thanh môi trường"),
-            new(MenuScene, "Canvas/SettingsPanel/Rows/MusicRow/MusicText", "Music", "Nhạc"),
-            new(MenuScene, "Canvas/CreditsPanel/HeaderText", "CREDITS", "GHI CÔNG"),
-            new(MenuScene, "Canvas/ConfirmRemovePanel/ConfirmText", "DO YOU WANT TO REMOVE THIS SAVE?", "XÓA DỮ LIỆU LƯU NÀY?"),
+            new(MenuScene, "Canvas/SettingsPanel/Rows/AmbienceRow/AmbienceText", "Môi trường", "Âm thanh môi trường"),
+            new(MenuScene, "Canvas/SettingsPanel/Rows/MusicRow/MusicText", "Âm nhạc", "Nhạc"),
+            new(MenuScene, "Canvas/CreditsPanel/HeaderText", "TÁC GIẢ", "GHI CÔNG"),
+            new(MenuScene, "Canvas/ConfirmRemovePanel/ConfirmText", "Xóa file lưu này?", "XÓA DỮ LIỆU LƯU NÀY?"),
             new(MenuScene, "Canvas/AboutPanel/Scroll View/Viewport/Content/AboutText", LongAboutSource, LongAboutTarget),
-            new(MenuScene, "Canvas/SavePanel/HeaderText", "PICK A SAVE", "CHỌN Ô LƯU"),
+            new(MenuScene, "Canvas/SavePanel/HeaderText", "CHỌN FILE LƯU", "CHỌN Ô LƯU"),
             new(MenuScene, "Canvas/SettingsPanel/Rows/SFXRow/SFXText", "SFX", "Hiệu ứng"),
             new(MenuScene, "Canvas/SettingsPanel/Rows/TargetFPSRow/TargetFPSText", "Target FPS", "FPS mục tiêu"),
-            new(MenuScene, "Canvas/ExitGamePanel/ConfirmText", "DO YOU WANT TO EXIT THE GAME?", "BẠN MUỐN THOÁT TRÒ CHƠI?"),
+            new(MenuScene, "Canvas/ExitGamePanel/ConfirmText", "Thoát game?", "BẠN MUỐN THOÁT TRÒ CHƠI?"),
 
             // MainScene
             new(MainScene, "Canvas/ShopPanel/BookContainer/SellPage/NoteText", "* Your tems will be sold the next morning", "* Hàng sẽ được bán vào sáng hôm sau"),
