@@ -66,6 +66,7 @@ namespace LangQueToi.EditorTools
         private static bool BuildOne(string ttfPath, string sdfPath, string label)
         {
             AssetDatabase.Refresh();
+            EnsureFontImportSettings(ttfPath);
             // FreeType font engine is loaded lazily by TMP; force init before batch use
             // (in batchmode without prior text rendering it stays uninitialized and
             // CreateFontAsset silently returns null).
@@ -125,6 +126,19 @@ namespace LangQueToi.EditorTools
             AssetDatabase.SaveAssets();
             Debug.Log($"[LQTFontBuilder] Built {label}: {sdfPath} ({GlyphCorpus.Length} char corpus)");
             return true;
+        }
+
+        private static void EnsureFontImportSettings(string ttfPath)
+        {
+            if (AssetImporter.GetAtPath(ttfPath) is not TrueTypeFontImporter importer)
+                return;
+
+            if (importer.includeFontData)
+                return;
+
+            importer.includeFontData = true;
+            importer.SaveAndReimport();
+            Debug.Log($"[LQTFontBuilder] Enabled Include Font Data for {ttfPath}");
         }
     }
 }

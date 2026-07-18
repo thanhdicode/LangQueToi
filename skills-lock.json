@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "game-asset-generation": {
+      "source": "eachlabs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/game-asset-generation/SKILL.md",
+      "computedHash": "bdeb188d2340b8ad41c8bbaea0f381b5a261f55b74b6f1699f20ab2e9881d557"
+    },
+    "generate2dsprite": {
+      "source": "0x0funky/agent-sprite-forge",
+      "sourceType": "github",
+      "skillPath": "skills/generate2dsprite/SKILL.md",
+      "computedHash": "fea374772ec8a90c6e5e1efb42eca16fad402df947fcaab16326e0bab04c0ca1"
+    }
+  }
+}

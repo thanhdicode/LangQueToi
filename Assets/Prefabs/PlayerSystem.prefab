@@ -434,7 +434,7 @@ Animator:
   m_GameObject: {fileID: 4332236762448638775}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3e52e975c84bbe34bba1a2deddd8b334, type: 2}
+  m_Controller: {fileID: 22100000, guid: 36649564e5d1afd49a33f3288f815c1f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -462,7 +462,8 @@ MonoBehaviour:
   wateringEffect: {fileID: 5151961515505622235}
   fishingController: {fileID: 4636060589192013335}
   spriteRenderer: {fileID: 6751303949695474086}
-  footstepSound: {fileID: 11400000, guid: d88690e4ce3c0fb40a393a2651772e69, type: 2}
+  footstepGrassSound: {fileID: 0}
+  footstepWoodSound: {fileID: 0}
 --- !u!1 &4821889753901417574
 GameObject:
   m_ObjectHideFlags: 0

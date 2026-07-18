@@ -65,11 +65,11 @@ namespace LangQueToi.EditorTools
                 r.warnings.Add($"Nunito TMP asset missing (run LQTFontBuilder first). Fonts will not be swapped.");
 
             // --- MenuScene ---
+            // DO NOT rebind Background, LogoTitle, or CharacterPortrait sprites.
+            // The original MenuScene has a complete tilemap-based visual design that
+            // must not be overridden. Only font swap is safe here.
             Scene menu = EditorSceneManager.OpenScene(MenuScene, OpenSceneMode.Single);
             bool menuDirty = false;
-            menuDirty |= TrySetImageSprite(menu, "Canvas/Background", MenuBackgroundPath, ImageType.Simple, r);
-            menuDirty |= TrySetImageSprite(menu, "Canvas/LogoTitle",  TitleMarkPath,      ImageType.Simple, r);
-            menuDirty |= TrySetImageSprite(menu, "Canvas/CharacterPortrait", MenuCharacterPath, ImageType.Simple, r);
             if (regular != null && bold != null)
                 menuDirty |= SwapAllFonts(menu.GetRootGameObjects(), regular, bold, r);
             if (menuDirty)
@@ -79,7 +79,6 @@ namespace LangQueToi.EditorTools
             // --- MainScene ---
             Scene main = EditorSceneManager.OpenScene(MainScene, OpenSceneMode.Single);
             bool mainDirty = false;
-            mainDirty |= TrySetImageSprite(main, "Canvas/LogoTitle", TitleMarkPath, ImageType.Simple, r);
             mainDirty |= TrySetImageSprite(main, "Canvas/DialoguePanel/DialogueBox", DialogueFramePath, ImageType.Sliced, r);
             mainDirty |= TrySetImageSprite(main, "Canvas/ShopPanel/BookContainer/GoldContainer/GoldImage", CoinPath, ImageType.Simple, r);
             mainDirty |= TrySetImageSprite(main, "Canvas/NotificationUI/Background", NotificationPath, ImageType.Sliced, r);
@@ -90,6 +89,7 @@ namespace LangQueToi.EditorTools
             // Ensure dialogue portrait Image exists and wire DialoguePanelUI fields
             mainDirty |= EnsureDialoguePortrait(main, r);
             mainDirty |= WireDialoguePanelUI(main, r);
+            mainDirty |= EnsureShopHeaderBackground(main, r);
 
             if (regular != null && bold != null)
                 mainDirty |= SwapAllFonts(main.GetRootGameObjects(), regular, bold, r);
@@ -194,6 +194,71 @@ namespace LangQueToi.EditorTools
             img.preserveAspect = true;
             EditorUtility.SetDirty(go);
             return true;
+        }
+
+        private static bool EnsureShopHeaderBackground(Scene scene, Report r)
+        {
+            GameObject header = ResolveInScene(scene, "Canvas/ShopPanel/BookContainer/BuyPage/ShopHeader");
+            if (header == null) { r.warnings.Add("ShopHeader not found; cannot ensure HeaderBg."); return false; }
+
+            Sprite headerSprite = AssetDatabase.LoadAssetAtPath<Sprite>(ShopHeaderPath);
+            if (headerSprite == null) { r.warnings.Add("Missing shop header sprite: " + ShopHeaderPath); return false; }
+
+            // Parented as a SIBLING of ShopHeader (not a child) so TMP's dynamically
+            // generated SubMeshUI children can never push it in front of the text.
+            Transform parent = header.transform.parent;
+            Transform existing = parent.Find("ShopHeaderBg");
+            bool changed = false;
+
+            Vector2 wantedSize = new Vector2(288f, 72f);
+            GameObject go;
+            if (existing != null)
+            {
+                go = existing.gameObject;
+                Image existingImg = go.GetComponent<Image>();
+                if (existingImg != null && existingImg.sprite != headerSprite)
+                {
+                    existingImg.sprite = headerSprite;
+                    existingImg.type = Image.Type.Sliced;
+                    EditorUtility.SetDirty(existingImg);
+                    changed = true;
+                }
+                var existingRt = (RectTransform)go.transform;
+                if (existingRt.sizeDelta != wantedSize)
+                {
+                    existingRt.sizeDelta = wantedSize;
+                    EditorUtility.SetDirty(existingRt);
+                    changed = true;
+                }
+            }
+            else
+            {
+                go = new GameObject("ShopHeaderBg", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
+                go.transform.SetParent(parent, worldPositionStays: false);
+                var headerRt = header.GetComponent<RectTransform>();
+                var rt = (RectTransform)go.transform;
+                rt.anchorMin = headerRt.anchorMin;
+                rt.anchorMax = headerRt.anchorMax;
+                rt.pivot = headerRt.pivot;
+                rt.anchoredPosition = headerRt.anchoredPosition;
+                rt.sizeDelta = new Vector2(288f, 72f);
+                Image img = go.GetComponent<Image>();
+                img.sprite = headerSprite;
+                img.type = Image.Type.Sliced;
+                EditorUtility.SetDirty(go);
+                changed = true;
+            }
+
+            // Always sit immediately before ShopHeader in sibling order so it
+            // renders behind the text regardless of TMP's dynamic children.
+            int wantedIndex = Mathf.Max(0, header.transform.GetSiblingIndex());
+            if (go.transform.GetSiblingIndex() != wantedIndex)
+            {
+                go.transform.SetSiblingIndex(wantedIndex);
+                changed = true;
+            }
+
+            return changed;
         }
 
         private static bool WireDialoguePanelUI(Scene scene, Report r)

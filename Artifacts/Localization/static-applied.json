@@ -1,11 +1,11 @@
 {
     "mode": "apply",
-    "timestampUtc": "2026-07-17T15:19:52.7444613Z",
+    "timestampUtc": "2026-07-18T06:04:50.0528754Z",
     "counts": {
         "total": 49,
         "matched": 0,
-        "applied": 1,
-        "already_target": 48,
+        "applied": 0,
+        "already_target": 49,
         "mismatched": 0,
         "missing": 0,
         "errors": 0
@@ -64,8 +64,8 @@
             "hierarchyPath": "Canvas/AboutPanel/Scroll View/Viewport/Content/AboutText",
             "expectedSource": "The Sprouty is a cozy 2D pixel art farming game where you tend your land, grow crops, harvest and explore the world at your own peaceful pace.\n\n─────────────────────────\n\nGame Development Course Project\nDalat University (DLU)\n\n─────────────────────────\n\n  DEVELOPMENT TEAM\n\nNguyen Dinh Thach\n  ID: 2314506\n\nPham Nguyen Ngoc Phuoc\n  ID: 2312718\n\nNguyen Van Quoc\n  ID: 2312729",
             "target": "Làng Quê Tôi là trò chơi nông trại pixel 2D ấm áp, nơi bạn chăm ruộng,\ngieo trồng, thu hoạch và khám phá miền quê theo nhịp sống yên bình.\n\n─────────────────────────\n\nĐồ án môn Phát triển Trò chơi\nTrường Đại học Đà Lạt (DLU)\n\n─────────────────────────\n\n NHÓM PHÁT TRIỂN\n\nNguyen Dinh Thach\n  MSSV: 2314506\n\nPham Nguyen Ngoc Phuoc\n  MSSV: 2312718\n\nNguyen Van Quoc\n  MSSV: 2312729",
-            "currentNormalized": "The Sprouty is a cozy 2D pixel art farming game where you tend your land, grow crops, harvest and explore the world at your own peaceful pace.\n\n─────────────────────────\n\nGame Development Course Project\nDalat University (DLU)\n\n─────────────────────────\n\n  DEVELOPMENT TEAM\n\nNguyen Dinh Thach\n  ID: 2314506\n\nPham Nguyen Ngoc Phuoc\n  ID: 2312718\n\nNguyen Van Quoc\n  ID: 2312729",
-            "status": "applied"
+            "currentNormalized": "Làng Quê Tôi là trò chơi nông trại pixel 2D ấm áp, nơi bạn chăm ruộng,\ngieo trồng, thu hoạch và khám phá miền quê theo nhịp sống yên bình.\n\n─────────────────────────\n\nĐồ án môn Phát triển Trò chơi\nTrường Đại học Đà Lạt (DLU)\n\n─────────────────────────\n\n NHÓM PHÁT TRIỂN\n\nNguyen Dinh Thach\n  MSSV: 2314506\n\nPham Nguyen Ngoc Phuoc\n  MSSV: 2312718\n\nNguyen Van Quoc\n  MSSV: 2312729",
+            "status": "already_target"
         },
         {
             "assetPath": "Assets/Scenes/MenuScene.unity",

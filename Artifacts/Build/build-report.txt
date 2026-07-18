@@ -1,9 +1,9 @@
 result: Succeeded
 output: C:/Users/ADMIN/Desktop/TheSprouty/TheSprouty/Builds/LangQueToi/LangQueToi.exe
-totalSize: 1420820038
-totalTime: 00:07:08.1427197
+totalSize: 1420820613
+totalTime: 00:00:16.9268974
 totalErrors: 0
-totalWarnings: 14
+totalWarnings: 1
 scenes: Assets/Scenes/MenuScene.unity, Assets/Scenes/MainScene.unity
 scriptingBackend: IL2CPP
 errors:
