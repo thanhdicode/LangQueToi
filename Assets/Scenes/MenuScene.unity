@@ -1908,7 +1908,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425752861}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 70769d15865c3204bb83a5ff4d53eb9d, type: 2}
   m_CullingMode: 0
@@ -1942,7 +1942,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3170606959719978654, guid: 474f716eef3b28d44b5356ddf91fb8f8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ac0156deb97aa840a91418c60c089a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2234,8 +2234,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "GI\u1EDAI THI\u1EC6U"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9ed42ea534604014b80f0fd5f6eefaba, type: 2}
+  m_sharedMaterial: {fileID: -4646335354710111007, guid: 9ed42ea534604014b80f0fd5f6eefaba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3163,7 +3163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 436186692}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &623480679
@@ -4074,7 +4074,7 @@ MonoBehaviour:
   m_text: "To\xE0n m\xE0n h\xECnh"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4390,10 +4390,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "M\xF4i tr\u01B0\u1EDDng"
+  m_text: "\xC2m thanh m\xF4i tr\u01B0\u1EDDng"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4877,10 +4877,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC2m nh\u1EA1c"
+  m_text: "Nh\u1EA1c"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5723,7 +5723,7 @@ MonoBehaviour:
     h8man\r\n  github.com/h8man/NavMeshPlus"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5877,10 +5877,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "T\xC1C GI\u1EA2"
+  m_text: "GHI C\xD4NG"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9ed42ea534604014b80f0fd5f6eefaba, type: 2}
+  m_sharedMaterial: {fileID: -4646335354710111007, guid: 9ed42ea534604014b80f0fd5f6eefaba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6861,10 +6861,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "X\xF3a file l\u01B0u n\xE0y?"
+  m_text: "X\xD3A D\u1EEE LI\u1EC6U L\u01AFU N\xC0Y?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7490,7 +7490,7 @@ MonoBehaviour:
   m_text: 60
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8920,14 +8920,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The Sprouty is a cozy 2D pixel art farming game where you tend your land,
-    grow crops, harvest and explore the world at your own peaceful pace.\r\n\r\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\r\n\r\nGame
-    Development Course Project\r\nDalat University (DLU)\r\n\r\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\r\n\r\n 
-    DEVELOPMENT TEAM\r\n\r\nNguyen Dinh Thach\r\n  ID: 2314506\r\n\r\nPham Nguyen
-    Ngoc Phuoc\r\n  ID: 2312718\r\n\r\nNguyen Van Quoc\r\n  ID: 2312729"
+  m_text: "L\xE0ng Qu\xEA T\xF4i l\xE0 tr\xF2 ch\u01A1i n\xF4ng tr\u1EA1i pixel 2D
+    \u1EA5m \xE1p, n\u01A1i b\u1EA1n ch\u0103m ru\u1ED9ng,\ngieo tr\u1ED3ng, thu
+    ho\u1EA1ch v\xE0 kh\xE1m ph\xE1 mi\u1EC1n qu\xEA theo nh\u1ECBp s\u1ED1ng y\xEAn
+    b\xECnh.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\u0110\u1ED3
+    \xE1n m\xF4n Ph\xE1t tri\u1EC3n Tr\xF2 ch\u01A1i\nTr\u01B0\u1EDDng \u0110\u1EA1i
+    h\u1ECDc \u0110\xE0 L\u1EA1t (DLU)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n
+    NH\xD3M PH\xC1T TRI\u1EC2N\n\nNguyen Dinh Thach\n  MSSV: 2314506\n\nPham Nguyen
+    Ngoc Phuoc\n  MSSV: 2312718\n\nNguyen Van Quoc\n  MSSV: 2312729"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9136,7 +9139,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 33221547e24b72a4aaa9a55a48155ed5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 175c7e3e9d9a22f4cae7cea911da0f06, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10534,10 +10537,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "CH\u1ECCN FILE L\u01AFU"
+  m_text: "CH\u1ECCN \xD4 L\u01AFU"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9ed42ea534604014b80f0fd5f6eefaba, type: 2}
+  m_sharedMaterial: {fileID: -4646335354710111007, guid: 9ed42ea534604014b80f0fd5f6eefaba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10674,7 +10677,7 @@ MonoBehaviour:
   m_text: "Hi\u1EC7u \u1EE9ng"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10886,7 +10889,7 @@ MonoBehaviour:
   m_text: "FPS m\u1EE5c ti\xEAu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11566,10 +11569,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tho\xE1t game?"
+  m_text: "B\u1EA0N MU\u1ED0N THO\xC1T TR\xD2 CH\u01A0I?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69508038736018543b627ed03fb131f2, type: 2}
-  m_sharedMaterial: {fileID: -8284942865105120000, guid: 69508038736018543b627ed03fb131f2, type: 2}
+  m_sharedMaterial: {fileID: -243771130453285199, guid: 69508038736018543b627ed03fb131f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
