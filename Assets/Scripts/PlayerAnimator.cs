@@ -140,8 +140,16 @@ public class PlayerAnimator : MonoBehaviour
 
         if (player.IsMoving)
         {
-            _animator.SetFloat(PARAM_HORIZONTAL, input.x);
-            _animator.SetFloat(PARAM_VERTICAL, input.y);
+            // Snap to 4 cardinal directions so the 2D directional blend tree picks a single clip,
+            // preventing blended/double-facing frames when moving diagonally.
+            float h = 0f;
+            float v = 0f;
+            if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
+                h = Mathf.Sign(input.x);
+            else
+                v = Mathf.Sign(input.y);
+            _animator.SetFloat(PARAM_HORIZONTAL, h);
+            _animator.SetFloat(PARAM_VERTICAL, v);
         }
 
         _animator.SetFloat(PARAM_SPEED, input.sqrMagnitude);
