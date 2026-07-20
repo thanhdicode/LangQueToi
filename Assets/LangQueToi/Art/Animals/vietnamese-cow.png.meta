@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 65145a559f79833ccab35a3b3b1f77bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6551280928454667145
+    second: vietnamese-cow_0
+  - first:
+      213: -4526291832690725476
+    second: vietnamese-cow_1
+  - first:
+      213: -1298484483431134422
+    second: vietnamese-cow_2
+  - first:
+      213: 6094775895622462824
+    second: vietnamese-cow_3
+  - first:
+      213: 7935387036644874510
+    second: vietnamese-cow_4
+  - first:
+      213: -6728023138386087950
+    second: vietnamese-cow_5
+  - first:
+      213: 215848900695198526
+    second: vietnamese-cow_6
+  - first:
+      213: -2525416968216643634
+    second: vietnamese-cow_7
+  - first:
+      213: 3460077166579152359
+    second: vietnamese-cow_8
+  - first:
+      213: 5721284101525793824
+    second: vietnamese-cow_9
+  - first:
+      213: 3944389580307094991
+    second: vietnamese-cow_10
+  - first:
+      213: -6991867976447799366
+    second: vietnamese-cow_11
+  - first:
+      213: -2459840407266375649
+    second: vietnamese-cow_12
+  - first:
+      213: 2909296835441474339
+    second: vietnamese-cow_13
+  - first:
+      213: 8584014891948152307
+    second: vietnamese-cow_14
+  - first:
+      213: -3389362944509846025
+    second: vietnamese-cow_15
+  - first:
+      213: 4962422075796294453
+    second: vietnamese-cow_16
+  - first:
+      213: 1932552576425559923
+    second: vietnamese-cow_17
+  - first:
+      213: 4897215059893175967
+    second: vietnamese-cow_18
+  - first:
+      213: 4390310011690975408
+    second: vietnamese-cow_19
+  - first:
+      213: -1255658764584959838
+    second: vietnamese-cow_20
+  - first:
+      213: -413995899298493653
+    second: vietnamese-cow_21
+  - first:
+      213: 1108282979464055352
+    second: vietnamese-cow_22
+  - first:
+      213: -1419163734595375987
+    second: vietnamese-cow_23
+  - first:
+      213: 8909530406593609416
+    second: vietnamese-cow_24
+  - first:
+      213: -3175963344228609370
+    second: vietnamese-cow_25
+  - first:
+      213: 7483447085773265323
+    second: vietnamese-cow_26
+  - first:
+      213: 8828946742360890238
+    second: vietnamese-cow_27
+  - first:
+      213: 855656353513399452
+    second: vietnamese-cow_28
+  - first:
+      213: -8133501189414706122
+    second: vietnamese-cow_29
+  - first:
+      213: -2931153488396460561
+    second: vietnamese-cow_30
+  - first:
+      213: -198523231262841719
+    second: vietnamese-cow_31
+  - first:
+      213: 2789841500226136016
+    second: vietnamese-cow_32
+  - first:
+      213: -2544958222759914295
+    second: vietnamese-cow_33
+  - first:
+      213: 1447080527143096830
+    second: vietnamese-cow_34
+  - first:
+      213: 538848008316510270
+    second: vietnamese-cow_35
+  - first:
+      213: 4100057678249231035
+    second: vietnamese-cow_36
+  - first:
+      213: -5948172715061119442
+    second: vietnamese-cow_37
+  - first:
+      213: 8148807106055383726
+    second: vietnamese-cow_38
+  - first:
+      213: 5072714104279463204
+    second: vietnamese-cow_39
+  - first:
+      213: -3836169256576656056
+    second: vietnamese-cow_40
+  - first:
+      213: -1817541757141402287
+    second: vietnamese-cow_41
+  - first:
+      213: -3813306105888565341
+    second: vietnamese-cow_42
+  - first:
+      213: 2591084391833749823
+    second: vietnamese-cow_43
+  - first:
+      213: 814175971877502104
+    second: vietnamese-cow_44
+  - first:
+      213: -3496581367994232881
+    second: vietnamese-cow_45
+  - first:
+      213: -7676522216019774164
+    second: vietnamese-cow_46
+  - first:
+      213: 4249767630091961094
+    second: vietnamese-cow_47
+  - first:
+      213: -7255150237977994106
+    second: vietnamese-cow_48
+  - first:
+      213: 9165540731187334078
+    second: vietnamese-cow_49
+  - first:
+      213: -4389126569820187382
+    second: vietnamese-cow_50
+  - first:
+      213: 4474234103204309608
+    second: vietnamese-cow_51
+  - first:
+      213: -8172510745917315929
+    second: vietnamese-cow_52
+  - first:
+      213: -3069601423645845550
+    second: vietnamese-cow_53
+  - first:
+      213: 4049330524330914564
+    second: vietnamese-cow_54
+  - first:
+      213: -8354926929062158007
+    second: vietnamese-cow_55
+  - first:
+      213: 2643269387694904390
+    second: vietnamese-cow_56
+  - first:
+      213: -4738922636182449265
+    second: vietnamese-cow_57
+  - first:
+      213: -7295599388259695023
+    second: vietnamese-cow_58
+  - first:
+      213: -550038962844759382
+    second: vietnamese-cow_59
+  - first:
+      213: -376467067794766219
+    second: vietnamese-cow_60
+  - first:
+      213: 5884215111451734506
+    second: vietnamese-cow_61
+  - first:
+      213: -4761020343154567106
+    second: vietnamese-cow_62
+  - first:
+      213: -5584702977764427565
+    second: vietnamese-cow_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vietnamese-cow_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 347
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98be4545b43daea50800000000000000
+      internalID: 6551280928454667145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 347
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9da7ba3f816f21c0800000000000000
+      internalID: -4526291832690725476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 347
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b0bb2fd3bdafde0800000000000000
+      internalID: -1298484483431134422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 347
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86da034b26ef49450800000000000000
+      internalID: 6094775895622462824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 347
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0915726778202e60800000000000000
+      internalID: 7935387036644874510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 347
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff63eb2a9241a2a0800000000000000
+      internalID: -6728023138386087950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 347
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b881b7e69def200800000000000000
+      internalID: 215848900695198526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 347
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7f3bbc5aae3fcd0800000000000000
+      internalID: -2525416968216643634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 299
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5f369c9d9a40030800000000000000
+      internalID: 3460077166579152359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 299
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ce882e395166f40800000000000000
+      internalID: 5721284101525793824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 299
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdd4fdcc694db630800000000000000
+      internalID: 3944389580307094991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 299
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf4663be15e7fe90800000000000000
+      internalID: -6991867976447799366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 299
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f184cb0be24ecddd0800000000000000
+      internalID: -2459840407266375649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 299
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b38a6ce06ef5820800000000000000
+      internalID: 2909296835441474339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 299
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f59b3d601c802770800000000000000
+      internalID: 8584014891948152307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_15
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 299
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd5e9d0c5096f0d0800000000000000
+      internalID: -3389362944509846025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 251
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b056df5901ed440800000000000000
+      internalID: 4962422075796294453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_17
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 251
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3778c93445ec1da10800000000000000
+      internalID: 1932552576425559923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_18
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 251
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9640a1862766f340800000000000000
+      internalID: 4897215059893175967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_19
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 251
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b08eacd1b38dec30800000000000000
+      internalID: 4390310011690975408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 251
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0cec1a101039ee0800000000000000
+      internalID: -1255658764584959838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_21
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 251
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b48db4ce0314af0800000000000000
+      internalID: -413995899298493653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 251
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a01957f79616f00800000000000000
+      internalID: 1108282979464055352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_23
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 251
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c63593a1e1e4ce0800000000000000
+      internalID: -1419163734595375987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 203
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cebd8833b205ab70800000000000000
+      internalID: 8909530406593609416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 203
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a297975a26bce3d0800000000000000
+      internalID: -3175963344228609370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_26
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 203
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba992fab97b8ad760800000000000000
+      internalID: 7483447085773265323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_27
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 203
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b534fc848b68a70800000000000000
+      internalID: 8828946742360890238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_28
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 203
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94e8f88be6efdb00800000000000000
+      internalID: 855656353513399452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_29
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 203
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63428b8e2cfff1f80800000000000000
+      internalID: -8133501189414706122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 203
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed5bf5ae637257d0800000000000000
+      internalID: -2931153488396460561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_31
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 203
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9846ae84c24be3df0800000000000000
+      internalID: -198523231262841719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_32
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d72f90301287b620800000000000000
+      internalID: 2789841500226136016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_33
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c49f2ceafd7eacd0800000000000000
+      internalID: -2544958222759914295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_34
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1dfbd8210151410800000000000000
+      internalID: 1447080527143096830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_35
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30e1ab986f5a7700800000000000000
+      internalID: 538848008316510270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb288ae3cb456e830800000000000000
+      internalID: 4100057678249231035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_37
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e267c103e68d37da0800000000000000
+      internalID: -5948172715061119442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_38
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa2c9383e0661170800000000000000
+      internalID: 8148807106055383726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_39
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425f0b8f996e56640800000000000000
+      internalID: 5072714104279463204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_40
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 107
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d5973d26033cac0800000000000000
+      internalID: -3836169256576656056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_41
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 107
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15db521d66bc6c6e0800000000000000
+      internalID: -1817541757141402287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_42
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 107
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a71faaec4a641bc0800000000000000
+      internalID: -3813306105888565341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_43
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 107
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f394f46b68165f320800000000000000
+      internalID: 2591084391833749823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_44
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 107
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cba649bb88c4b00800000000000000
+      internalID: 814175971877502104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_45
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 107
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf447085c5a97fc0800000000000000
+      internalID: -3496581367994232881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_46
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 107
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c253fbb67b3877590800000000000000
+      internalID: -7676522216019774164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_47
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 107
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603c591b4253afa30800000000000000
+      internalID: 4249767630091961094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 59
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c1b394c47805b90800000000000000
+      internalID: -7255150237977994106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_49
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 59
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb8bc0ebba823f70800000000000000
+      internalID: 9165540731187334078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_50
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 59
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0593aba3a0b613c0800000000000000
+      internalID: -4389126569820187382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_51
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 59
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a6e6b163ca71e30800000000000000
+      internalID: 4474234103204309608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_52
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 59
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a42982c6c8659e80800000000000000
+      internalID: -8172510745917315929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_53
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 59
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d75e85c4c59665d0800000000000000
+      internalID: -3069601423645845550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_54
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 59
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403f3e858ac123830800000000000000
+      internalID: 4049330524330914564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_55
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 59
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941a7ec69365d0c80800000000000000
+      internalID: -8354926929062158007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 11
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6441833e087cea420800000000000000
+      internalID: 2643269387694904390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_57
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 11
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83994468f6fb3eb0800000000000000
+      internalID: -4738922636182449265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_58
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 11
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15649379203d0ca90800000000000000
+      internalID: -7295599388259695023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_59
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 11
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa830f3a7edd58f0800000000000000
+      internalID: -550038962844759382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_60
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 11
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576c57a423586caf0800000000000000
+      internalID: -376467067794766219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_61
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 11
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1f01cc77ee8a150800000000000000
+      internalID: 5884215111451734506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_62
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 11
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e381ddd09357dedb0800000000000000
+      internalID: -4761020343154567106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-cow_63
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 11
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8f8421b362f72b0800000000000000
+      internalID: -5584702977764427565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vietnamese-cow_0: 6551280928454667145
+      vietnamese-cow_1: -4526291832690725476
+      vietnamese-cow_10: 3944389580307094991
+      vietnamese-cow_11: -6991867976447799366
+      vietnamese-cow_12: -2459840407266375649
+      vietnamese-cow_13: 2909296835441474339
+      vietnamese-cow_14: 8584014891948152307
+      vietnamese-cow_15: -3389362944509846025
+      vietnamese-cow_16: 4962422075796294453
+      vietnamese-cow_17: 1932552576425559923
+      vietnamese-cow_18: 4897215059893175967
+      vietnamese-cow_19: 4390310011690975408
+      vietnamese-cow_2: -1298484483431134422
+      vietnamese-cow_20: -1255658764584959838
+      vietnamese-cow_21: -413995899298493653
+      vietnamese-cow_22: 1108282979464055352
+      vietnamese-cow_23: -1419163734595375987
+      vietnamese-cow_24: 8909530406593609416
+      vietnamese-cow_25: -3175963344228609370
+      vietnamese-cow_26: 7483447085773265323
+      vietnamese-cow_27: 8828946742360890238
+      vietnamese-cow_28: 855656353513399452
+      vietnamese-cow_29: -8133501189414706122
+      vietnamese-cow_3: 6094775895622462824
+      vietnamese-cow_30: -2931153488396460561
+      vietnamese-cow_31: -198523231262841719
+      vietnamese-cow_32: 2789841500226136016
+      vietnamese-cow_33: -2544958222759914295
+      vietnamese-cow_34: 1447080527143096830
+      vietnamese-cow_35: 538848008316510270
+      vietnamese-cow_36: 4100057678249231035
+      vietnamese-cow_37: -5948172715061119442
+      vietnamese-cow_38: 8148807106055383726
+      vietnamese-cow_39: 5072714104279463204
+      vietnamese-cow_4: 7935387036644874510
+      vietnamese-cow_40: -3836169256576656056
+      vietnamese-cow_41: -1817541757141402287
+      vietnamese-cow_42: -3813306105888565341
+      vietnamese-cow_43: 2591084391833749823
+      vietnamese-cow_44: 814175971877502104
+      vietnamese-cow_45: -3496581367994232881
+      vietnamese-cow_46: -7676522216019774164
+      vietnamese-cow_47: 4249767630091961094
+      vietnamese-cow_48: -7255150237977994106
+      vietnamese-cow_49: 9165540731187334078
+      vietnamese-cow_5: -6728023138386087950
+      vietnamese-cow_50: -4389126569820187382
+      vietnamese-cow_51: 4474234103204309608
+      vietnamese-cow_52: -8172510745917315929
+      vietnamese-cow_53: -3069601423645845550
+      vietnamese-cow_54: 4049330524330914564
+      vietnamese-cow_55: -8354926929062158007
+      vietnamese-cow_56: 2643269387694904390
+      vietnamese-cow_57: -4738922636182449265
+      vietnamese-cow_58: -7295599388259695023
+      vietnamese-cow_59: -550038962844759382
+      vietnamese-cow_6: 215848900695198526
+      vietnamese-cow_60: -376467067794766219
+      vietnamese-cow_61: 5884215111451734506
+      vietnamese-cow_62: -4761020343154567106
+      vietnamese-cow_63: -5584702977764427565
+      vietnamese-cow_7: -2525416968216643634
+      vietnamese-cow_8: 3460077166579152359
+      vietnamese-cow_9: 5721284101525793824
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

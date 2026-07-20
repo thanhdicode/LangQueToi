@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: c0ca66cccc7b5bb3ba106e04d1e9a5ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1667881637915582940
+    second: vietnamese-chicken_0
+  - first:
+      213: 7330408783811721260
+    second: vietnamese-chicken_1
+  - first:
+      213: -8834895893434284742
+    second: vietnamese-chicken_2
+  - first:
+      213: -81667311383107862
+    second: vietnamese-chicken_3
+  - first:
+      213: -1203282432742523039
+    second: vietnamese-chicken_4
+  - first:
+      213: 5346177343803218011
+    second: vietnamese-chicken_5
+  - first:
+      213: 8480593185287540741
+    second: vietnamese-chicken_6
+  - first:
+      213: -4698682034625082988
+    second: vietnamese-chicken_7
+  - first:
+      213: -5633929871137959410
+    second: vietnamese-chicken_8
+  - first:
+      213: 236495669286979623
+    second: vietnamese-chicken_9
+  - first:
+      213: 1665308797022062541
+    second: vietnamese-chicken_10
+  - first:
+      213: 5426631322844703498
+    second: vietnamese-chicken_11
+  - first:
+      213: 5698057442396088000
+    second: vietnamese-chicken_12
+  - first:
+      213: -2456472807461304925
+    second: vietnamese-chicken_13
+  - first:
+      213: 247968541385926083
+    second: vietnamese-chicken_14
+  - first:
+      213: -8070158101036768299
+    second: vietnamese-chicken_15
+  - first:
+      213: -4570155019785581618
+    second: vietnamese-chicken_16
+  - first:
+      213: -20910899945737564
+    second: vietnamese-chicken_17
+  - first:
+      213: -2591620315686582321
+    second: vietnamese-chicken_18
+  - first:
+      213: -5956568291600839785
+    second: vietnamese-chicken_19
+  - first:
+      213: -4200988559642201985
+    second: vietnamese-chicken_20
+  - first:
+      213: 6814551232954651225
+    second: vietnamese-chicken_21
+  - first:
+      213: -2080160141409914916
+    second: vietnamese-chicken_22
+  - first:
+      213: 3016112759364457856
+    second: vietnamese-chicken_23
+  - first:
+      213: 7452440003183348205
+    second: vietnamese-chicken_24
+  - first:
+      213: 4993948625976699035
+    second: vietnamese-chicken_25
+  - first:
+      213: -3710606960953826455
+    second: vietnamese-chicken_26
+  - first:
+      213: -6745835225354072322
+    second: vietnamese-chicken_27
+  - first:
+      213: -1631060083729610397
+    second: vietnamese-chicken_28
+  - first:
+      213: 8951814131932323361
+    second: vietnamese-chicken_29
+  - first:
+      213: 359571999627151686
+    second: vietnamese-chicken_30
+  - first:
+      213: 7201867942477637595
+    second: vietnamese-chicken_31
+  - first:
+      213: 4325163631918456914
+    second: vietnamese-chicken_32
+  - first:
+      213: -7133225273605206824
+    second: vietnamese-chicken_33
+  - first:
+      213: -8280128613631153075
+    second: vietnamese-chicken_34
+  - first:
+      213: -6690012439458795981
+    second: vietnamese-chicken_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vietnamese-chicken_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 384
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e15a4bc7e7ad8e0800000000000000
+      internalID: -1667881637915582940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 384
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28308163f7dab560800000000000000
+      internalID: 7330408783811721260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 384
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35ca448ef4246580800000000000000
+      internalID: -8834895893434284742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 384
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6af33530cdddef0800000000000000
+      internalID: -81667311383107862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 336
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ff9efa0051d4fe0800000000000000
+      internalID: -1203282432742523039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 336
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d1ab08ff613a40800000000000000
+      internalID: 5346177343803218011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 336
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50099a5e19e11b570800000000000000
+      internalID: 8480593185287540741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 336
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49989ad859deaceb0800000000000000
+      internalID: -4698682034625082988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 288
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e021c5dc1a240d1b0800000000000000
+      internalID: -5633929871137959410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 288
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728c4c6ee83384300800000000000000
+      internalID: 236495669286979623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 288
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc745d7178d5c1710800000000000000
+      internalID: 1665308797022062541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 288
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0baa25cf644f4b40800000000000000
+      internalID: 5426631322844703498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 240
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c62ac3ed01931f40800000000000000
+      internalID: 5698057442396088000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 240
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5ccde1ffad8edd0800000000000000
+      internalID: -2456472807461304925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 240
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5a7c81316f07300800000000000000
+      internalID: 247968541385926083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 240
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d36672f6f9010090800000000000000
+      internalID: -8070158101036768299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb4635293c8390c0800000000000000
+      internalID: -4570155019785581618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 192
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2fcc4b5a5b5bff0800000000000000
+      internalID: -20910899945737564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 192
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7c0dacd07b80cd0800000000000000
+      internalID: -2591620315686582321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_19
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 192
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bc6c2b2b4065da0800000000000000
+      internalID: -5956568291600839785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 144
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70fb0da92713b5c0800000000000000
+      internalID: -4200988559642201985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 144
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95256f7cd36229e50800000000000000
+      internalID: 6814551232954651225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 144
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfe55f5f59c123e0800000000000000
+      internalID: -2080160141409914916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 144
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085117813926bd920800000000000000
+      internalID: 3016112759364457856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de987abb2b26c6760800000000000000
+      internalID: 7452440003183348205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 96
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9824e5f0d11e4540800000000000000
+      internalID: 4993948625976699035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 96
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963614fe0a6418cc0800000000000000
+      internalID: -3710606960953826455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 96
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe047f7a9af162a0800000000000000
+      internalID: -6745835225354072322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 48
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3694afdde7f4d59e0800000000000000
+      internalID: -1631060083729610397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_29
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 48
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ed525368b3b3c70800000000000000
+      internalID: 8951814131932323361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 48
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64904fc14d47df400800000000000000
+      internalID: 359571999627151686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 48
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd727ae8cbc22f360800000000000000
+      internalID: 7201867942477637595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25020f35861160c30800000000000000
+      internalID: 4325163631918456914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc4ce73861b10d90800000000000000
+      internalID: -7133225273605206824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ca7f955e2171d80800000000000000
+      internalID: -8280128613631153075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vietnamese-chicken_35
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e2d1ba12d4823a0800000000000000
+      internalID: -6690012439458795981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vietnamese-chicken_0: -1667881637915582940
+      vietnamese-chicken_1: 7330408783811721260
+      vietnamese-chicken_10: 1665308797022062541
+      vietnamese-chicken_11: 5426631322844703498
+      vietnamese-chicken_12: 5698057442396088000
+      vietnamese-chicken_13: -2456472807461304925
+      vietnamese-chicken_14: 247968541385926083
+      vietnamese-chicken_15: -8070158101036768299
+      vietnamese-chicken_16: -4570155019785581618
+      vietnamese-chicken_17: -20910899945737564
+      vietnamese-chicken_18: -2591620315686582321
+      vietnamese-chicken_19: -5956568291600839785
+      vietnamese-chicken_2: -8834895893434284742
+      vietnamese-chicken_20: -4200988559642201985
+      vietnamese-chicken_21: 6814551232954651225
+      vietnamese-chicken_22: -2080160141409914916
+      vietnamese-chicken_23: 3016112759364457856
+      vietnamese-chicken_24: 7452440003183348205
+      vietnamese-chicken_25: 4993948625976699035
+      vietnamese-chicken_26: -3710606960953826455
+      vietnamese-chicken_27: -6745835225354072322
+      vietnamese-chicken_28: -1631060083729610397
+      vietnamese-chicken_29: 8951814131932323361
+      vietnamese-chicken_3: -81667311383107862
+      vietnamese-chicken_30: 359571999627151686
+      vietnamese-chicken_31: 7201867942477637595
+      vietnamese-chicken_32: 4325163631918456914
+      vietnamese-chicken_33: -7133225273605206824
+      vietnamese-chicken_34: -8280128613631153075
+      vietnamese-chicken_35: -6690012439458795981
+      vietnamese-chicken_4: -1203282432742523039
+      vietnamese-chicken_5: 5346177343803218011
+      vietnamese-chicken_6: 8480593185287540741
+      vietnamese-chicken_7: -4698682034625082988
+      vietnamese-chicken_8: -5633929871137959410
+      vietnamese-chicken_9: 236495669286979623
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
